@@ -664,7 +664,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La empresa OldTravelsa es una agencia de viajes enfocada en organizar excursiones con personas de la tercera edad y trabaja con el Imserso. <br/>La empresa ha observado que las franjas de descanso, en las que no hay actividades programadas, se usan sistemáticamente por los excursionistas para organizarse en pequeños grupos, que salen para tomar algo o ver alguna zona o museo, que no están incluidos en el viaje pero que les resulta de interés. <br/>Como consecuencia de esta situación la empresa identifica que se generan algunas malas dinámicas de <rem:ref oid="GLO-0028">grupo</rem:ref>, llegándose incluso a discusiones, debido al reparto de los gastos generados en dichas actividades. Estas situaciones generan un mal ambiente en el que se ven involucradas incluso personas que no tienen un papel directo en la situación y, como resultado, las evaluaciones de satisfacción disminuyen globalmente.<br/><br/>A la empresa OldTravelsa le gustaría disminuir este tipo de conflictos con el objetivo de aumentar la satisfacción de los clientes y recomendar empresas de <rem:ref oid="GLO-0032">servicio</rem:ref> con buenas valoraciones, en los que sus clientes puedan tener una buena experiencia.<br/><br/>Para ello, les gustaría proporcionar una herramienta que permita gestionar los gastos dentro de un <rem:ref oid="GLO-0028">grupo</rem:ref> de viaje, de manera que se registren los gastos y pagos de cada integrante. Se han pensado múltiples alternativas, entre las que se encuentran:<br/>- Una libreta y un bolígrafo.<br/>- Post-its.<br/>- Un dispositivo hardware especialmente construido.<br/>- Una aplicación móvil.<br/><br/>La libreta es una alternativa sencilla y económica, pero complica la consulta de gastos y deudas y no estaría automatizado el reparto de gastos (por lo que podría haber errores).<br/>Los post-its son también económicos, pero tienen el incoveniente de que se pierden fácilmente, perdiendo así la información, y de igual forma no estaría automatizado el reparto de gastos.<br/>Construir un dispositivo hardware específico resultaría muy caro y complejo, en comparación con la creación de una aplicación móvil, la cual es la altenativa más razonable. Además, la empresa ha detectado que la franja de edad no tiene un impacto significativo en el uso de dispositivos móviles.<br/><br/><br/>También se necesita utilizar los gastos realizados para analizar las actividades por las que pagó cada <rem:ref oid="GLO-0028">grupo</rem:ref>. Su objetivo sería recomendar o desaconsejar empresas de servicios, que sistemáticamente proporcionan una buena experiencia de los excursionistas que haya usado y valorado ese <rem:ref oid="GLO-0032">servicio</rem:ref>, los cuales tienen mucho más peso que las opiniones genéricas de internet realizadas por cualquier tipo de persona. Entre las alternativas, se recogen:<br/>- Libro de valoraciones en la empresa.<br/>- Dispositivo hardware especialmente construido.<br/>- Aplicación móvil.<br/><br/>Las dos primeras alternativas presentan los mismos problemas expuestos en la necesidad anterior y, dado que ya se ha decidido realizar una aplicación móvil para el reparto de gastos, también se incluirá en ella las valoraciones de empresas de servicios.</rem:text>
+<rem:text>La empresa OldTravelsa es una agencia de viajes enfocada en organizar excursiones con personas de la tercera edad y trabaja con el Imserso. <br/>La empresa ha observado que las franjas de descanso, en las que no hay actividades programadas, se usan sistemáticamente por los excursionistas para organizarse en pequeños grupos, que salen para tomar algo o ver alguna zona o museo, que no están incluidos en el viaje pero que les resulta de interés. <br/>Como consecuencia de esta situación la empresa identifica que se generan algunas malas dinámicas de <rem:ref oid="GLO-0028">grupo</rem:ref>, llegándose incluso a discusiones, debido al reparto de los gastos generados en dichas actividades. Estas situaciones generan un mal ambiente en el que se ven involucradas incluso personas que no tienen un papel directo en la situación y, como resultado, las evaluaciones de satisfacción disminuyen globalmente.<br/><br/>A la empresa OldTravelsa le gustaría disminuir este tipo de conflictos con el objetivo de aumentar la satisfacción de los clientes y recomendar empresas de <rem:ref oid="GLO-0032">servicio</rem:ref> con buenas valoraciones, en los que sus clientes puedan tener una buena experiencia.<br/><br/>Para ello, les gustaría proporcionar una herramienta que permita gestionar los gastos dentro de un <rem:ref oid="GLO-0028">grupo</rem:ref> de viaje, de manera que se registren los gastos y pagos de cada integrante. Se han pensado múltiples alternativas, entre las que se encuentran:<br/> <br/>- Una libreta y un bolígrafo.  <br/><br/>La libreta es una alternativa sencilla y económica, pero complica la consulta de gastos y deudas y no estaría automatizado el reparto de gastos (por lo que podría haber errores).  <br/><br/>- Post-its.  <br/><br/>Los post-its son también económicos, pero tienen el incoveniente de que se pierden fácilmente, perdiendo así la información, y de igual forma no estaría automatizado el reparto de gastos. <br/><br/>- Un dispositivo hardware especialmente construido.  <br/><br/>El dispositivo podría adaptarse perfectamente a la necesidad de llevar cuenta de los gastos de forma organizada y repartir de forma automatizada los gastos. No obstante, construir este dispositivo a medida podría resultar demasiado caro e innecesario ya que podrían aprovecharse otros dispositivos tecnológicos (como los móviles) ya existentes.  <br/><br/>- Una aplicación móvil.  <br/><br/>Construir un dispositivo hardware específico resultaría muy caro y complejo, en comparación con la creación de una aplicación móvil, la cual es la altenativa más razonable. Permitiría automatizar el reparto de gastos y almacenar la información de forma fiable. Además, la empresa ha detectado que la franja de edad no tiene un impacto significativo en el uso de dispositivos móviles. Por las razones expuestas, la aplicación móvil parece la alternativa que mejor se adecúa.  <br/> <br/>También se necesita utilizar los gastos realizados para analizar las actividades por las que pagó cada <rem:ref oid="GLO-0028">grupo</rem:ref>. Su objetivo sería recomendar o desaconsejar empresas de servicios, que sistemáticamente proporcionan una buena experiencia de los excursionistas que haya usado y valorado ese <rem:ref oid="GLO-0032">servicio</rem:ref>, los cuales tienen mucho más peso que las opiniones genéricas de internet realizadas por cualquier tipo de persona. Entre las alternativas, se recogen:  <br/><br/>- Libro de valoraciones en la empresa.  <br/><br/>El libro es una alternativa barata y sencilla, que sería fácil de usar para cualquier cliente. No obstante, se podría extraviar y podría resultar difícil analizar los datos obtenidos porque al no estar digitalizados, las estadísticas tendrían que calcularse a mano o habría que pasar todos los datos a otro formato (a una base de datos por ejemplo) antes.  <br/><br/>- Dispositivo hardware especialmente construido.  <br/><br/>El dispositivo podría adaptarse perfectamente para analizar de forma automatizada las actividades por las que pagó cada <rem:ref oid="GLO-0028">grupo</rem:ref>. No obstante, construir este dispositivo a medida podría resultar demasiado caro e innecesario ya que podrían aprovecharse otros dispositivos tecnológicos (como los móviles) ya existentes.  <br/><br/>- Aplicación móvil.  <br/><br/>A través de una aplicación, los clientes de la empresa podrían registrar las actividades a las que han ido y valorarlas. Se podrían usar estos datos para realizar estadísticas de forma automatizada que posteriormente servirían para analizarlas por los trabajadores de la empresa. Además, la empresa ha detectado que la franja de edad no tiene un impacto significativo en el uso de dispositivos móviles. <br/><br/> <br/><br/>En conclusión, las alternativas que no implican soluciones digitales (el libro de valoraciones, los post-its…) no parecen viables porque no automatizan las tareas y los trabajadores de la empresa serían los encargados de realizar las cuentas o las estadísticas. La construcción de un dispositivo hardware a medida, aunque satisfaría las necesidades, puede resultar demasiado caro y complejo en comparación con el desarrollo de una aplicación móvil. Por tanto, la aplicación móvil es la alternativa que recomendamos: es la que satisfaría las necesidades con una mejor relación calidad-precio. </rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -766,7 +766,7 @@ Gestionar los gastos en un <rem:ref oid="GLO-0028">grupo</rem:ref></rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0006 STK-0005 "/>
+<rem:authors stakeholders ="STK-0005 STK-0006 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -820,7 +820,7 @@ Recomendar empresas de servicios</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0006 STK-0005 "/>
+<rem:authors stakeholders ="STK-0005 STK-0006 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -844,7 +844,7 @@ Compartir mensajes y archivos multimedia</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0006 STK-0005 "/>
+<rem:authors stakeholders ="STK-0005 STK-0006 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -890,7 +890,7 @@ Diagrama de contexto</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\Imagenes\Alcance.png]]>
+<![CDATA[.\Imagenes\Diagrama_Contexto_2.png]]>
 </rem:fileName>
 </rem:graphicFile>
 <rem:paragraph
@@ -978,7 +978,7 @@ Ninguno</rem:comments>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1050,7 +1050,7 @@ Ninguno</rem:comments>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1110,7 +1110,7 @@ Ninguno</rem:comments>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1164,7 +1164,7 @@ Ninguno</rem:comments>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1206,7 +1206,7 @@ Método de pago</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1260,7 +1260,7 @@ Ninguno</rem:comments>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1314,7 +1314,7 @@ Ninguno</rem:comments>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1368,7 +1368,7 @@ Ninguno</rem:comments>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1428,7 +1428,7 @@ Mensajes entre usuarios</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1488,7 +1488,7 @@ Recompensas</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1565,7 +1565,7 @@ Pagador único</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1589,7 +1589,7 @@ El pagador tiene que ser único (para facilitar el reparto de gastos). </rem:desc
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1613,7 +1613,7 @@ Nombre <rem:ref oid="GLO-0031">usuario</rem:ref> único</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1637,7 +1637,7 @@ Contraseña de <rem:ref oid="GLO-0031">usuario</rem:ref> de más de 6 caracteres</
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1661,7 +1661,7 @@ La contraseña asociada a cada <rem:ref oid="GLO-0031">usuario</rem:ref> debe ten
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1685,7 +1685,7 @@ Posibles métodos de pago: cuenta bancaria, <rem:ref oid="GLO-0038">monedero</rem
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1709,7 +1709,7 @@ Valoración reseñas de 1 a 5</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1733,7 +1733,7 @@ la valoración numérica podrá tomar los siguientes valores: {1,2,3,4,5}</rem:desc
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1757,7 +1757,7 @@ Tipo de recompensa</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0003 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1817,7 +1817,7 @@ Ninguno</rem:comments>
 <rem:day>5</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0006 STK-0005 "/>
+<rem:authors stakeholders ="STK-0005 STK-0006 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -1836,7 +1836,7 @@ Personal OldTravelsa</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0006 STK-0005 "/>
+<rem:authors stakeholders ="STK-0005 STK-0006 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4156,7 +4156,7 @@ Usabilidad</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Prueba de validación: encuesta realizada sobre una versión beta de la aplicación a una muestra de los potenciales usuarios.</rem:comments>
@@ -4180,7 +4180,7 @@ Rendimiento</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Prueba de validación: tiempos de respuesta inferiores a 0.1s<br/></rem:comments>
@@ -4204,7 +4204,7 @@ Seguridad y privacidad</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Contratación de una empresa de auditoría de seguridad externa</rem:comments>
@@ -4228,7 +4228,7 @@ Escalabilidad</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Prueba de validación: estudio de la complejidad de las principalaes funcionalidades (Big-O)</rem:comments>
@@ -4252,7 +4252,7 @@ Fiabilidad</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Prueba de validación: realización exhaustiva de tests.</rem:comments>
@@ -4276,7 +4276,7 @@ Mantenibilidad</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Prueba de validación: contratación de unos auditores externos que evalúen el código.</rem:comments>
@@ -4300,7 +4300,7 @@ Interoperabillidad</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Prueba de validación: revisión de la calidad de las interfaces que permiten la integración con servicios externos</rem:comments>
@@ -4324,7 +4324,7 @@ Documentación</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Prueba de validación: test de uso sobre una muestra de usuarios y administradores con documentación como único soporte.</rem:comments>
@@ -4348,7 +4348,7 @@ Cumplimiento Legal y Regulatorio</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Prueba de validación: contratación de un buffete de avogados externo especializado.</rem:comments>
@@ -4372,7 +4372,7 @@ Compatibilidad</rem:name>
 <rem:day>13</rem:day>
 </rem:date>
 </rem:version>
-<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:authors stakeholders ="STK-0001 STK-0007 "/>
 <rem:sources stakeholders ="STK-0002 "/>
 <rem:comments>
 Prueba de validación: test de uso sobre una muestra de usuarios con dispositivos Android y dispositivos IOS</rem:comments>
@@ -5360,7 +5360,7 @@ Ninguno</rem:comments>
 </rem:time>
 <rem:place>Edificio Emprendia</rem:place>
 <rem:results>Se obtienen las listas TFEA refinadas, sobre las que se basa el presente informe. </rem:results>
-	<rem:attenders stakeholders ="STK-0006 STK-0007 STK-0003 STK-0005 STK-0001 "/>
+	<rem:attenders stakeholders ="STK-0005 STK-0006 STK-0001 STK-0003 STK-0007 "/>
 </rem:meeting>
 <rem:meeting
  oid = "MET-0002">
@@ -5389,7 +5389,7 @@ Ninguno</rem:comments>
 </rem:time>
 <rem:place>Edificio Emprendia</rem:place>
 <rem:results>Explicación detallada sobre los objetivos de la Práctica 5.2. Finalización Descripción de la propuesta, Visión General y comienzo de los requisitos de la información</rem:results>
-	<rem:attenders stakeholders ="STK-0006 STK-0007 STK-0005 STK-0001 STK-0002 "/>
+	<rem:attenders stakeholders ="STK-0005 STK-0002 STK-0006 STK-0001 STK-0007 "/>
 </rem:meeting>
 <rem:meeting
  oid = "MET-0003">
@@ -5418,7 +5418,7 @@ Ninguno</rem:comments>
 </rem:time>
 <rem:place>Sala de trabajo ETSE</rem:place>
 <rem:results>Realización restricciones de la información y comienzo de las requisitos funcionales así como los no funcionales. Creación restricciones de la información.</rem:results>
-	<rem:attenders stakeholders ="STK-0006 STK-0007 STK-0005 STK-0001 "/>
+	<rem:attenders stakeholders ="STK-0005 STK-0006 STK-0001 STK-0007 "/>
 </rem:meeting>
 </rem:section>
 <rem:section
@@ -5572,19 +5572,28 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "FRQ-0002"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0001"  target = "OBJ-0001" >
+<rem:trace source = "CRQ-0001"  target = "IRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "FRQ-0003"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0001"  target = "IRQ-0001" >
+<rem:trace source = "CRQ-0002"  target = "IRQ-0007" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "OBJ-0004"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0002"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0002"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0003"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0001"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "CRQ-0001"  target = "IRQ-0007" >
@@ -5593,181 +5602,166 @@ Ninguno
 <rem:trace source = "FRQ-0001"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0002"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0008"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0004"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "FRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "FRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0002"  target = "IRQ-0007" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0007" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "CRQ-0011"  target = "IRQ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0004"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0004"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0001"  target = "FRQ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0007"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "FRQ-0001" >
+<rem:trace source = "IRQ-0002"  target = "CRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0002"  target = "FRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "FRQ-0004"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "IRQ-0003"  target = "FRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0008"  target = "IRQ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0009"  target = "IRQ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "CRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0003"  target = "FRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0004"  target = "FRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0009"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0006"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0008"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "IRQ-0005"  target = "IRQ-0007" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0003"  target = "IRQ-0001" >
+<rem:trace source = "IRQ-0004"  target = "CRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0010"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0010"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0007"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0001"  target = "OBJ-0004" >
+<rem:trace source = "IRQ-0004"  target = "FRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0005"  target = "FRQ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0009"  target = "FRQ-0003" >
+<rem:trace source = "CRQ-0010"  target = "IRQ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0007"  target = "FRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0002"  target = "FRQ-0001" >
+<rem:trace source = "CRQ-0008"  target = "IRQ-0005" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0006"  target = "FRQ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0008"  target = "FRQ-0002" >
+<rem:trace source = "IRQ-0004"  target = "IRQ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0001"  target = "OBJ-0001" >
+<rem:trace source = "IRQ-0002"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0009"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0007"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0010"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0004"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0004"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0009"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0004"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "FRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0006"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0007"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "FRQ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0010"  target = "FRQ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0007"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0004"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0006"  target = "FRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0002"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0007"  target = "FRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0007"  target = "UC-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0004"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0003"  target = "OBJ-0004" >
+<rem:trace source = "UC-0002"  target = "FRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0002"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "UC-0002"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0001"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0007"  target = "FRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0001"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0009"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0006"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0006"  target = "UC-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0008"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0003"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "UC-0003"  target = "UC-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0009"  target = "FRQ-0001" >
+<rem:trace source = "UC-0001"  target = "FRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0007"  target = "IRQ-0006" >
+<rem:trace source = "UC-0004"  target = "FRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0009"  target = "IRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0005"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "UC-0009"  target = "IRQ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0007"  target = "UC-0005" >
+<rem:trace source = "UC-0009"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0003"  target = "OBJ-0001" >
+<rem:trace source = "UC-0008"  target = "UC-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0003"  target = "FRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "GLO-0031"  target = "IRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0006"  target = "CRQ-0009" >
@@ -5776,64 +5770,55 @@ Ninguno
 <rem:trace source = "UC-0003"  target = "UC-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0005"  target = "GRF-0004" >
+<rem:trace source = "UC-0009"  target = "FRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0009"  target = "OBJ-0001" >
+<rem:trace source = "UC-0005"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0008"  target = "FRQ-0001" >
+<rem:trace source = "UC-0003"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0008"  target = "IRQ-0002" >
+<rem:trace source = "UC-0004"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0008"  target = "OBJ-0001" >
+<rem:trace source = "UC-0007"  target = "IRQ-0006" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0008"  target = "IRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0004"  target = "FRQ-0001" >
+<rem:trace source = "UC-0008"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0006"  target = "UC-0005" >
+<rem:trace source = "UC-0006"  target = "FRQ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0006"  target = "IRQ-0006" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0001"  target = "FRQ-0001" >
+<rem:trace source = "UC-0007"  target = "UC-0006" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0003"  target = "FRQ-0001" >
+<rem:trace source = "UC-0004"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0005"  target = "GRF-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "UC-0005" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0005"  target = "FRQ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0006"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "GLO-0036"  target = "IRQ-0007" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "GLO-0037"  target = "IRQ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "GLO-0034"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "GLO-0031"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "GLO-0032"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "GLO-0035"  target = "IRQ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0008"  target = "UC-0009" >
+<rem:trace source = "UC-0008"  target = "FRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "GLO-0036"  target = "IRQ-0002" >
@@ -5842,46 +5827,58 @@ Ninguno
 <rem:trace source = "GLO-0033"  target = "IRQ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0018"  target = "GRF-0004" >
+<rem:trace source = "GLO-0035"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0011"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "GLO-0034"  target = "IRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0010"  target = "FRQ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0019"  target = "FRQ-0003" >
+<rem:trace source = "GLO-0036"  target = "IRQ-0007" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0019"  target = "GRF-0005" >
+<rem:trace source = "GLO-0032"  target = "IRQ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0020"  target = "FRQ-0003" >
+<rem:trace source = "GLO-0037"  target = "IRQ-0008" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0013"  target = "FRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0015"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0016"  target = "FRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0018"  target = "FRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0020"  target = "GRF-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0010"  target = "OBJ-0003" >
+<rem:trace source = "UC-0011"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0015"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0013"  target = "UC-0012" >
+<rem:trace source = "UC-0014"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0017"  target = "FRQ-0002" >
+<rem:trace source = "UC-0013"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "GRF-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "FRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0010"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0016"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0014"  target = "OBJ-0003" >
@@ -5890,22 +5887,40 @@ Ninguno
 <rem:trace source = "UC-0017"  target = "UC-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0013"  target = "OBJ-0003" >
+<rem:trace source = "UC-0019"  target = "GRF-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0011"  target = "FRQ-0003" >
+<rem:trace source = "UC-0020"  target = "FRQ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0012"  target = "OBJ-0003" >
+<rem:trace source = "UC-0001"  target = "IRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0011"  target = "FRQ-0003" >
+<rem:trace source = "UC-0001"  target = "IRQ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0014"  target = "FRQ-0004" >
+<rem:trace source = "UC-0013"  target = "UC-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "FRQ-0003" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0014"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0016"  target = "FRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0011"  target = "UC-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0011"  target = "FRQ-0003" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0015"  target = "OBJ-0003" >
@@ -5914,37 +5929,37 @@ Ninguno
 <rem:trace source = "UC-0014"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0012"  target = "FRQ-0003" >
+<rem:trace source = "UC-0019"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "GRF-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0015"  target = "FRQ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0015"  target = "OBJ-0004" >
+<rem:trace source = "UC-0020"  target = "GRF-0005" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0017"  target = "GRF-0004" >
+<rem:trace source = "UC-0002"  target = "IRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0011"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0014"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0011"  target = "UC-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0016"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0001"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0001"  target = "IRQ-0007" >
+<rem:trace source = "UC-0003"  target = "IRQ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0002"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0004"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0004"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0004"  target = "IRQ-0005" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0003"  target = "IRQ-0007" >
@@ -5953,115 +5968,142 @@ Ninguno
 <rem:trace source = "UC-0002"  target = "IRQ-0007" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0003"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0004"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0001"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0002"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0016"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0006"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0018"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0017"  target = "IRQ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0021"  target = "GLO-0032" >
+<rem:trace source = "UC-0001"  target = "IRQ-0007" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0007"  target = "UC-0021" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0007"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0021"  target = "UC-0005" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "UC-0022"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0005"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0018"  target = "IRQ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0004"  target = "IRQ-0007" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0010"  target = "IRQ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0011"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0010"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0013"  target = "IRQ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0020"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0017"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0011"  target = "IRQ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0015"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0021"  target = "FRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0022"  target = "FRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0022"  target = "UC-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0022"  target = "IRQ-0003" >
+<rem:trace source = "UC-0021"  target = "GLO-0032" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0021"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0016"  target = "IRQ-0005" >
+<rem:trace source = "UC-0011"  target = "IRQ-0009" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0004"  target = "IRQ-0005" >
+<rem:trace source = "UC-0016"  target = "IRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0012"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0014"  target = "IRQ-0001" >
+<rem:trace source = "UC-0022"  target = "UC-0005" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0021"  target = "CRQ-0009" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0013"  target = "IRQ-0001" >
+<rem:trace source = "UC-0013"  target = "IRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "FRQ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0019"  target = "IRQ-0009" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "UC-0013"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "UC-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0011"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0016"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0020"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0010"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0010"  target = "IRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0006"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0005"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "IRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
 <rem:predefinedValueTypes>
+<rem:predefinedValueType
+ oid = "PVT-0002">
+<rem:name>
+Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Integer numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0003">
+<rem:name>
+Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Natural numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType
  oid = "PVT-0001">
 <rem:name>
@@ -6079,6 +6121,27 @@ Real</rem:name>
 Predefined OCL type</rem:comments>
 <rem:description>
 Real numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0004">
+<rem:name>
+String</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Alphanumeric strings</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -6125,76 +6188,13 @@ Hour:minutes:seconds</rem:description>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0003">
-<rem:name>
-Natural</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Natural numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0002">
-<rem:name>
-Integer</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Integer numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0004">
-<rem:name>
-String</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Alphanumeric strings</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
@@ -6205,20 +6205,20 @@ Alphanumeric strings</rem:description>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
+</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0001">
-<rem:name>PD</rem:name>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
@@ -6232,40 +6232,10 @@ Alphanumeric strings</rem:description>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
 <rem:name>Ambigüedad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0003">
@@ -6274,10 +6244,10 @@ Alphanumeric strings</rem:description>
 <![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0005">
@@ -6286,34 +6256,16 @@ Alphanumeric strings</rem:description>
 <![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+<![CDATA[Por Determinar]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0023">
@@ -6322,10 +6274,64 @@ Alphanumeric strings</rem:description>
 <![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0009">
 <rem:name>Dependiente del diseño</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0016">
@@ -6334,29 +6340,23 @@ Alphanumeric strings</rem:description>
 <![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>PD</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0002">
-<rem:name>vital</rem:name>
-</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0001">
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
-</rem:stabilityValue>
+</rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
@@ -6364,6 +6364,12 @@ Alphanumeric strings</rem:description>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
+<rem:statusValue oid = "STV-0001">
+<rem:name>PD</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
 <rem:statusValue oid = "STV-0004">
 <rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
@@ -6373,44 +6379,17 @@ Alphanumeric strings</rem:description>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0001">
-<rem:name>PD</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0005">
-<rem:name>validado</rem:name>
-</rem:statusValue>
-<rem:terminationValue oid = "TEV-0003">
-<rem:name>queda sin efecto</rem:name>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>continúa</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
 </rem:terminationValue>
-<rem:terminationValue oid = "TEV-0002">
-<rem:name>continúa</rem:name>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0001">
-<rem:name>PD</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0009">
 <rem:name>hora(s)</rem:name>
@@ -6418,8 +6397,29 @@ Alphanumeric strings</rem:description>
 <rem:timeUnitValue oid = "TUV-0010">
 <rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
