@@ -1,0 +1,6406 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE rem:requirementsProject SYSTEM "C:\Users\Celtia\Downloads\03_PortableREM\REM\xml\REM_1_2_2.dtd">
+<rem:requirementsProject
+xmlns:rem="http://rem.lsi.us.es">
+<rem:name>AplicacionOldTravelsa_Requisitos</rem:name>
+<rem:c_requirementsSpecification oid = "CRS-0001">
+<rem:name>Documento de Requisitos del Sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno
+</rem:comments>
+	 <rem:preparedFor organizations = "ORG-0001 "/>
+	 <rem:preparedBy organizations = "ORG-0002 "/>
+<rem:section
+ oid = "SEC-0001">
+<rem:name>
+Descripción de la propuesta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>1 </rem:number>
+<rem:section
+ oid = "SEC-0005">
+<rem:name>
+Datos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0001">
+<rem:name>
+Título </rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Título: Aplicación OldTravelsa<br/>Acrónimo: <rem:ref oid="GLO-0021">AOT</rem:ref><br/>Código: 231205/<rem:ref oid="GLO-0021">AOT</rem:ref></rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section
+ oid = "SEC-0006">
+<rem:name>
+Participantes en la propuesta</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.2 </rem:number>
+<rem:section
+ oid = "SEC-0009">
+<rem:name>
+Empresa contratante</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>1.2.1 </rem:number>
+<rem:organization
+ oid = "ORG-0001">
+<rem:name>
+Agencia de viajes OldTravelsa</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:address>Calle Rosalía de Castro 24, bajo. Santiago de Compostela, 15701, España</rem:address>
+<rem:telephone>123 456 789</rem:telephone>
+<rem:fax>789 456 123</rem:fax>
+</rem:organization>
+<rem:stakeholder
+ oid = "STK-0002">
+<rem:name>
+José Ángel Taboada González</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Portavoz de los clientes</rem:stakeholderRole>
+<rem:isCustomer/>
+</rem:stakeholder>
+<rem:stakeholder
+ oid = "STK-0003">
+<rem:name>
+Raquel Dosil Lago</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Portavoz de los clientes</rem:stakeholderRole>
+<rem:isCustomer/>
+</rem:stakeholder>
+<rem:stakeholder
+ oid = "STK-0004">
+<rem:name>
+José Manuel Cotos Yáñez</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Portavoz de los clientes</rem:stakeholderRole>
+<rem:isCustomer/>
+</rem:stakeholder>
+</rem:section>
+<rem:section
+ oid = "SEC-0010">
+<rem:name>
+Empresa desarrolladora</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>1.2.2 </rem:number>
+<rem:organization
+ oid = "ORG-0002">
+<rem:name>
+NewSW</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:address>Edificio Emprendia, Campus Vida, 15782, Santiago de Compostela, España</rem:address>
+<rem:telephone>881 815 532</rem:telephone>
+<rem:fax>881 815 533</rem:fax>
+</rem:organization>
+<rem:stakeholder
+ oid = "STK-0001">
+<rem:name>
+Carlos Cao López</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Analista</rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0002"/>
+</rem:stakeholder>
+<rem:stakeholder
+ oid = "STK-0005">
+<rem:name>
+Celtia Castelo Gajino</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Directora de proyecto</rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0002"/>
+</rem:stakeholder>
+<rem:stakeholder
+ oid = "STK-0006">
+<rem:name>
+Yago Falgueras Casarejos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Analista</rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0002"/>
+</rem:stakeholder>
+<rem:stakeholder
+ oid = "STK-0007">
+<rem:name>
+Daniel Piqueras Valle</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole>Analista</rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0002"/>
+</rem:stakeholder>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0007">
+<rem:name>
+Glosario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.3 </rem:number>
+<rem:section
+ oid = "SEC-0011">
+<rem:name>
+Definiciones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>1.3.1 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0034">
+<rem:name>
+<rem:ref oid="GLO-0034">Administrador</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El creador de un <rem:ref oid="GLO-0028">grupo</rem:ref> de <rem:ref oid="GLO-0036">gasto</rem:ref>, que maneja los cobros y a los miembros.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0033">
+<rem:name>
+<rem:ref oid="GLO-0033">Factura</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Justificación de que se han de repartir los gastos de un <rem:ref oid="GLO-0032">servicio</rem:ref> entre los usuarios de un <rem:ref oid="GLO-0028">grupo</rem:ref> de gastos. Es decir, una prueba fotográfica por parte del <rem:ref oid="GLO-0034">administrador</rem:ref> de un <rem:ref oid="GLO-0028">grupo</rem:ref> de <rem:ref oid="GLO-0036">gasto</rem:ref> que confirma la veracidad de dicho <rem:ref oid="GLO-0036">gasto</rem:ref>.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0036">
+<rem:name>
+<rem:ref oid="GLO-0036">Gasto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Transacción creada por el <rem:ref oid="GLO-0031">usuario</rem:ref> que ha hecho el pago de un <rem:ref oid="GLO-0032">servicio</rem:ref> y por la cual se genera deuda a otro(s) <rem:ref oid="GLO-0031">usuario</rem:ref>(s) por haber efectuado el consumo de un <rem:ref oid="GLO-0032">servicio</rem:ref> que aún no ha pagado.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0028">
+<rem:name>
+<rem:ref oid="GLO-0028">Grupo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Conjunto de clientes de la empresa que realizan actividades juntos.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0024">
+<rem:name>
+<rem:ref oid="GLO-0024">Importancia1-Vital</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Debe cumplirse sí o sí. Si no se alcanza el proyecto deja de tener<br/>sentido.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0025">
+<rem:name>
+<rem:ref oid="GLO-0025">Importancia2-Importante</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El cliente espera que este elemento esté presente y se sentirá francamente decepcionado si no es así. CUIDADO, estos elementos pueden no mencionarse explicitamente por el cliente ya que considerará obvia su importancia y necesidad.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0026">
+<rem:name>
+<rem:ref oid="GLO-0026">Importancia3-Quedaría Bien</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El cliente no nos lo ha especificado, pero le aporta valor (incluirlo si proporciona beneficios medibles). El cliente se sentirá satisfecho por su presencia.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0038">
+<rem:name>
+<rem:ref oid="GLO-0038">Monedero</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Cuenta que tiene un <rem:ref oid="GLO-0031">usuario</rem:ref> que sirve exclusivamente para realizar pagos en grupos de <rem:ref oid="GLO-0036">gasto</rem:ref> utilizando nuestra aplicación.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0037">
+<rem:name>
+<rem:ref oid="GLO-0037">Planificación</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Ruta/itinerario de diversas actividades que elabora un empleado de OldTravelsa para que otros usuarios las puedan seguir.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0035">
+<rem:name>
+<rem:ref oid="GLO-0035">Reseña</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Redacción que publica un <rem:ref oid="GLO-0031">usuario</rem:ref> a cerca de un <rem:ref oid="GLO-0032">servicio</rem:ref> que ha consumido. Puede incluir fotos, texto, así como una valoración numérica (del 1 al 5)</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0032">
+<rem:name>
+<rem:ref oid="GLO-0032">Servicio</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Actividades o locales registrados en nuestra aplicación y que se les mostrarán a los clientes</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0031">
+<rem:name>
+<rem:ref oid="GLO-0031">Usuario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Individuo que hace uso de nuestra aplicación</rem:text>
+</rem:glossaryItem>
+</rem:section>
+<rem:section
+ oid = "SEC-0012">
+<rem:name>
+Acrónimos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>1.3.2 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0021">
+<rem:name>
+<rem:ref oid="GLO-0021">AOT</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Aplicación OldTravelsa</rem:text>
+</rem:glossaryItem>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0008">
+<rem:name>
+Organización del documento</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.4 </rem:number>
+<rem:paragraph
+ oid = "PRG-0009">
+<rem:name>
+</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El primer apartado consta de la descripción de la propuesta, en la que se indica el título del proyecto, las personas involucradas en él, un glosario de palabras de interés y una breve descripción del documento.<br/><br/>El segundo apartado realiza una visión general de todo el proyecto, donde se detalla cuál es el problema del cliente y cómo se quiere solucionar, los objetivos principales y el alcance de la solución desarrollada.<br/><br/>En la tercera sección se incluyen los requisitos, ya sean de información, funcionales o no funcionales, así como los diagramas de sistema, actores y dependencias involucrados en ellos.<br/><br/>En el último apartado se muestran las matrices de trazabilidad que muestran las dependencias entre diferentes componentes del informe.<br/><br/>Finalmente, hay un anexo en el que se incuye un registro de las reuniones realizadas entre los interesados y el Proceso Analítico Jerárquico de los casos de uso, con el que establecer una jerarquía de prioridades en el proyecto.</rem:text>
+</rem:paragraph>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0002">
+<rem:name>
+Visión general</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>2 </rem:number>
+<rem:section
+ oid = "SEC-0013">
+<rem:name>
+Introducción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>2.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0010">
+<rem:name>
+</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>La empresa OldTravelsa es una agencia de viajes enfocada en organizar excursiones con personas de la tercera edad y trabaja con el Imserso. <br/>La empresa ha observado que las franjas de descanso, en las que no hay actividades programadas, se usan sistemáticamente por los excursionistas para organizarse en pequeños grupos, que salen para tomar algo o ver alguna zona o museo, que no están incluidos en el viaje pero que les resulta de interés. <br/>Como consecuencia de esta situación la empresa identifica que se generan algunas malas dinámicas de <rem:ref oid="GLO-0028">grupo</rem:ref>, llegándose incluso a discusiones, debido al reparto de los gastos generados en dichas actividades. Estas situaciones generan un mal ambiente en el que se ven involucradas incluso personas que no tienen un papel directo en la situación y, como resultado, las evaluaciones de satisfacción disminuyen globalmente.<br/><br/>A la empresa OldTravelsa le gustaría disminuir este tipo de conflictos con el objetivo de aumentar la satisfacción de los clientes y recomendar empresas de <rem:ref oid="GLO-0032">servicio</rem:ref> con buenas valoraciones, en los que sus clientes puedan tener una buena experiencia.<br/><br/>Para ello, les gustaría proporcionar una herramienta que permita gestionar los gastos dentro de un <rem:ref oid="GLO-0028">grupo</rem:ref> de viaje, de manera que se registren los gastos y pagos de cada integrante. Se han pensado múltiples alternativas, entre las que se encuentran:<br/>- Una libreta y un bolígrafo.<br/>- Post-its.<br/>- Un dispositivo hardware especialmente construido.<br/>- Una aplicación móvil.<br/><br/>La libreta es una alternativa sencilla y económica, pero complica la consulta de gastos y deudas y no estaría automatizado el reparto de gastos (por lo que podría haber errores).<br/>Los post-its son también económicos, pero tienen el incoveniente de que se pierden fácilmente, perdiendo así la información, y de igual forma no estaría automatizado el reparto de gastos.<br/>Construir un dispositivo hardware específico resultaría muy caro y complejo, en comparación con la creación de una aplicación móvil, la cual es la altenativa más razonable. Además, la empresa ha detectado que la franja de edad no tiene un impacto significativo en el uso de dispositivos móviles.<br/><br/><br/>También se necesita utilizar los gastos realizados para analizar las actividades por las que pagó cada <rem:ref oid="GLO-0028">grupo</rem:ref>. Su objetivo sería recomendar o desaconsejar empresas de servicios, que sistemáticamente proporcionan una buena experiencia de los excursionistas que haya usado y valorado ese <rem:ref oid="GLO-0032">servicio</rem:ref>, los cuales tienen mucho más peso que las opiniones genéricas de internet realizadas por cualquier tipo de persona. Entre las alternativas, se recogen:<br/>- Libro de valoraciones en la empresa.<br/>- Dispositivo hardware especialmente construido.<br/>- Aplicación móvil.<br/><br/>Las dos primeras alternativas presentan los mismos problemas expuestos en la necesidad anterior y, dado que ya se ha decidido realizar una aplicación móvil para el reparto de gastos, también se incluirá en ella las valoraciones de empresas de servicios.</rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section
+ oid = "SEC-0014">
+<rem:name>
+Objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>2.2 </rem:number>
+<rem:section
+ oid = "SEC-0025">
+<rem:name>
+Objetivos del negocio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>2.2.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0029">
+<rem:name>
+Objetivos de negocio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Se distinguen dos grandes objetivos del negocio, que son:<br/>- Mejorar la satisfacción de los clientes; se pretende mejorar la relación entre los integrantes de un <rem:ref oid="GLO-0028">grupo</rem:ref>, evitando conflicto entre ellos y optimizar la dinámica de <rem:ref oid="GLO-0028">grupo</rem:ref>.<br/>- Mejorar la gestión de los viajes: con el análisis de los datos obtenidos de los clientes, se quiere mejorar la experiencia de los clientes con las empresas de <rem:ref oid="GLO-0032">servicio</rem:ref> y facilitar la administración de los viajes.</rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section
+ oid = "SEC-0026">
+<rem:name>
+Objetivos de producto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>2.2.2 </rem:number>
+<rem:paragraph
+ oid = "PRG-0027">
+<rem:name>
+</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>En este caso, los objetivos del proyecto y del producto coinciden.</rem:text>
+</rem:paragraph>
+<rem:objective
+ oid = "OBJ-0001">
+<rem:name>
+Gestionar los gastos en un <rem:ref oid="GLO-0028">grupo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0006 STK-0005 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+registrar los gastos y pagos de los integrantes de un <rem:ref oid="GLO-0028">grupo</rem:ref>, de manera que cada persona pueda imputar los costes comunes de las actividades que haya pagado y se indique con precisión cuánto debe pagar cada uno y a quién.</rem:description>
+<rem:objective
+ oid = "OBJ-0004">
+<rem:name>
+Gestionar un <rem:ref oid="GLO-0028">grupo</rem:ref> de <rem:ref oid="GLO-0036">gasto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability>
+<rem:tbd/>
+</rem:stability>
+<rem:description>
+ser capaz de crear, editar y eliminar grupos, registrar los usuarios que forman un <rem:ref oid="GLO-0028">grupo</rem:ref> y almacenar los gastos y pagos de cada uno de ellos.</rem:description>
+</rem:objective>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0002">
+<rem:name>
+Recomendar empresas de servicios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0006 STK-0005 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+analizar las valoraciones y actividades de otros usuarios para recomendar o desaconsejar empresas de servicios que sistemáticamente proporcionan una buena o mala experiencia a los clientes de la empresa.</rem:description>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0003">
+<rem:name>
+Compartir mensajes y archivos multimedia</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0006 STK-0005 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+permitir el intercambio de mensajes y contenido multimedia dentro de un <rem:ref oid="GLO-0028">grupo</rem:ref>, entre dos usuarios, y desde la administración de la aplicación a todos los usuarios.</rem:description>
+</rem:objective>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0015">
+<rem:name>
+Alcance de la solución</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>2.3 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0001">
+<rem:name>
+Diagrama de contexto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imagenes\Alcance.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0030">
+<rem:name>
+</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Al cliente se le proporcionará un archivo APK (para Android) y un archivo IPA (para iOS), que serán los ejecutables de la aplicación en ambos sistemas operativos, la documentación del <rem:ref oid="GLO-0031">usuario</rem:ref> y  la documentación de la base de datos implementada para la aplicación. <br/>Esta base de datos almacenará información sobre los usuarios, las recomendaciones de servicios y el contenido multimedia enviado.  Estará operativa en un servidor implementado por los desarrolladores.<br/><br/>La documentación del <rem:ref oid="GLO-0031">usuario</rem:ref> incluirá instrucciones sobre la instalación de la aplicación, cómo realizar las configuraciones iniciales y cómo utilizar sus funcionalidades principales. Además, se proporcionará documentación con las instrucciones precisas para conectar la aplicación la base de datos ya existente de la empresa OldTravelsa, para poder asegurarse que los usuarios de la aplicación están registrados como clientes de la empresa.<br/><br/></rem:text>
+</rem:paragraph>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0003">
+<rem:name>
+Requisitos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>3 </rem:number>
+<rem:section
+ oid = "SEC-0016">
+<rem:name>
+Requisitos de información</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.1 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0002">
+<rem:name>
+Diagrama Requisitos de Información</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imagenes\Mini MER.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:informationRequirement
+ oid = "IRQ-0001">
+<rem:name>
+<rem:ref oid="GLO-0031">Usuario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:relevantConcept>
+los usuarios</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:value>5</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:value>20</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:value>5000</rem:value>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:value>100000</rem:value>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0033">
+<rem:description>
+Nombre real</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0004">
+<rem:description>
+Nombre <rem:ref oid="GLO-0031">usuario</rem:ref><br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0005">
+<rem:description>
+Número de teléfono<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0006">
+<rem:description>
+Correo electrónico<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0007">
+<rem:description>
+Historial de gastos<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0008">
+<rem:description>
+Contraseña<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0002">
+<rem:name>
+<rem:ref oid="GLO-0028">Grupo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:relevantConcept>
+los grupos de <rem:ref oid="GLO-0036">gasto</rem:ref></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0005"/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:value>500</rem:value>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:value>10000</rem:value>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0009">
+<rem:description>
+Nombre de los miembros<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0010">
+<rem:description>
+Actividades realizadas</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0011">
+<rem:description>
+Gastos compartidos<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0012">
+<rem:description>
+Nombre <rem:ref oid="GLO-0034">administrador</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0003">
+<rem:name>
+<rem:ref oid="GLO-0032">Servicio</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:relevantConcept>
+los establecimientos de ocio, servicios y actividades</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:value>8</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:value>20</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:value>1000</rem:value>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:value>10000</rem:value>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0013">
+<rem:description>
+Nombre</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0014">
+<rem:description>
+Coste asociado</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0015">
+<rem:description>
+Ubicación<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0004">
+<rem:name>
+<rem:ref oid="GLO-0033">Factura</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:relevantConcept>
+los recibos que ha pagado el responsable de hacerlo.</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0005"/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:value>500</rem:value>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:value>10000</rem:value>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0016">
+<rem:description>
+Imágenes de recibos, tickets o facturas<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0005">
+<rem:name>
+Método de pago</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:relevantConcept>
+los métodos de pago de un <rem:ref oid="GLO-0036">gasto</rem:ref></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:value>5</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:value>10</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:value>3</rem:value>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:value>10</rem:value>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0017">
+<rem:description>
+Tipo</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0018">
+<rem:description>
+Datos de cuenta</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0034">
+<rem:description>
+Parámetros opcionales en función del tipo asociado<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0006">
+<rem:name>
+<rem:ref oid="GLO-0035">Reseña</rem:ref> de servicios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:relevantConcept>
+las reseñas asociadas a cada <rem:ref oid="GLO-0032">servicio</rem:ref></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:value>5</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:value>10</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:value>1000</rem:value>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:value>100000</rem:value>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0019">
+<rem:description>
+Texto de las reseñas<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0020">
+<rem:description>
+Imágenes<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0021">
+<rem:description>
+Valoración númerica</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0007">
+<rem:name>
+<rem:ref oid="GLO-0036">Gasto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:relevantConcept>
+los gastos de un <rem:ref oid="GLO-0028">grupo</rem:ref></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0005"/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:value>1000</rem:value>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:value>100000</rem:value>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0022">
+<rem:description>
+Número decimal </rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0070">
+<rem:description>
+Nombre de las personas implicadas y porcentaje que deben</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0071">
+<rem:description>
+Fecha en la que se produjo</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0008">
+<rem:name>
+<rem:ref oid="GLO-0037">Planificación</rem:ref> de actividades</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:relevantConcept>
+los itinerarios de actividades programadas por la empresa</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0005"/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:value>10</rem:value>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:value>1000</rem:value>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0023">
+<rem:description>
+Nombre actividad<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0024">
+<rem:description>
+Fecha<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0025">
+<rem:description>
+Hora<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0035">
+<rem:description>
+Lugar<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0009">
+<rem:name>
+Mensajes entre usuarios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:relevantConcept>
+el intercambio de información entre usuarios</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:value>5</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:value>10</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:value>10000</rem:value>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:value>1e+008</rem:value>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0026">
+<rem:description>
+Mensajes enviados</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0027">
+<rem:description>
+Mensajes recibidos<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0028">
+<rem:description>
+Fecha<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0029">
+<rem:description>
+Hora</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0010">
+<rem:name>
+Recompensas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:relevantConcept>
+recompensas por un buen comportamiento</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0005"/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:value>1</rem:value>
+<rem:timeUnit value = "TUV-0002"/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:value>10</rem:value>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:value>100</rem:value>
+</rem:maximumOcurrences>
+<rem:specificData oid = "DAT-0030">
+<rem:description>
+Tipo<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0031">
+<rem:description>
+Cantidad</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0121">
+<rem:description>
+Fecha<br/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+<rem:specificData oid = "DAT-0122">
+<rem:description>
+<rem:ref oid="GLO-0031">Usuario</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:specificData>
+</rem:informationRequirement>
+<rem:section
+ oid = "SEC-0017">
+<rem:name>
+Restricciones de la información</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.1.1 </rem:number>
+<rem:constraintRequirement
+ oid = "CRQ-0001">
+<rem:name>
+Pagador único</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El pagador tiene que ser único (para facilitar el reparto de gastos). </rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0002">
+<rem:name>
+<rem:ref oid="GLO-0036">Gasto</rem:ref> asociado a <rem:ref oid="GLO-0028">grupo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+todo <rem:ref oid="GLO-0036">gasto</rem:ref> debe estar asociado a un único <rem:ref oid="GLO-0028">grupo</rem:ref></rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0003">
+<rem:name>
+Nombre <rem:ref oid="GLO-0031">usuario</rem:ref> único</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+El nombre de <rem:ref oid="GLO-0031">usuario</rem:ref> debe ser único</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0004">
+<rem:name>
+Contraseña de <rem:ref oid="GLO-0031">usuario</rem:ref> de más de 6 caracteres</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+La contraseña asociada a cada <rem:ref oid="GLO-0031">usuario</rem:ref> debe tener 6 carateres o más</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0007">
+<rem:name>
+<rem:ref oid="GLO-0033">Factura</rem:ref> asociada a un <rem:ref oid="GLO-0036">gasto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+las facturas deben estar asociadas a un <rem:ref oid="GLO-0036">gasto</rem:ref> como mínimo</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0008">
+<rem:name>
+Posibles métodos de pago: cuenta bancaria, <rem:ref oid="GLO-0038">monedero</rem:ref> virtual o PayPal</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+las métodos de pago deben ser uno de los siguientes: cuenta bancaria, <rem:ref oid="GLO-0038">monedero</rem:ref> virtual, PayPal</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0009">
+<rem:name>
+Valoración reseñas de 1 a 5</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+la valoración numérica podrá tomar los siguientes valores: {1,2,3,4,5}</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0010">
+<rem:name>
+<rem:ref oid="GLO-0033">Factura</rem:ref> asociada a un <rem:ref oid="GLO-0032">servicio</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+las facturas se deben poder asociar a un <rem:ref oid="GLO-0032">servicio</rem:ref> existente</rem:description>
+</rem:constraintRequirement>
+<rem:constraintRequirement
+ oid = "CRQ-0011">
+<rem:name>
+Tipo de recompensa</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0003 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+las recompensas podrán ser de los siguientes tipos: monedas virtuales o descuentos.</rem:description>
+</rem:constraintRequirement>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0018">
+<rem:name>
+Requisitos funcionales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.2 </rem:number>
+<rem:section
+ oid = "SEC-0020">
+<rem:name>
+Actores</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.2.1 </rem:number>
+<rem:actor
+ oid = "ACT-0001">
+<rem:name>
+<rem:ref oid="GLO-0031">Usuario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0006 STK-0005 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>a los clientes de la empresa OldTravelsa, los cuales forman grupos de <rem:ref oid="GLO-0036">gasto</rem:ref>.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0002">
+<rem:name>
+Personal OldTravelsa</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0006 STK-0005 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>a los trabajadores de la empresa OldTravelsa, encargados de la administración y del envío de mensaje importantes por parte de la empresa a los usuarios.</rem:actorRole>
+</rem:actor>
+</rem:section>
+<rem:section
+ oid = "SEC-0019">
+<rem:name>
+Diagramas de sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>3.2.2 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0007">
+<rem:name>
+Diagrama de subsistemas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imagenes\Subsistemas.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:section
+ oid = "SEC-0021">
+<rem:name>
+Subsistema 1</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+<br/></rem:comments>
+<rem:level>4</rem:level>
+<rem:number>3.2.2.1 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0003">
+<rem:name>
+Subsistema 1</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imagenes\Subsistema1.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:functionalRequirement
+ oid = "FRQ-0001">
+<rem:name>
+Gestionar los gastos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0006 "/>
+<rem:sources stakeholders ="STK-0004 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+ser capaz de registrar, repartir y editar gastos, adjuntar un comprobante de pago del <rem:ref oid="GLO-0036">gasto</rem:ref>, registrar el pago a otro <rem:ref oid="GLO-0031">usuario</rem:ref>, realizar pagos a través de la aplicación, ver el historial de pagos y denunciar un <rem:ref oid="GLO-0036">gasto</rem:ref> como falso. Respecto a los integrantes de un <rem:ref oid="GLO-0028">grupo</rem:ref> de <rem:ref oid="GLO-0036">gasto</rem:ref>, se deberá poder crear y eliminar grupos, agregar y quitar usuarios a un <rem:ref oid="GLO-0028">grupo</rem:ref>.</rem:description>
+</rem:functionalRequirement>
+<rem:section
+ oid = "SEC-0027">
+<rem:name>
+Casos de uso</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>5</rem:level>
+<rem:number>3.2.2.1.1 </rem:number>
+<rem:useCase
+ oid = "UC-0001">
+<rem:name>
+Registrar un <rem:ref oid="GLO-0036">gasto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0006 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Crear un <rem:ref oid="GLO-0036">gasto</rem:ref> nuevo a repartir entre parte de los integrantes del <rem:ref oid="GLO-0028">grupo</rem:ref> y añadir la foto del recibo. Casos límite de máximo y mínimo de personas y dinero.<br/></rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el <rem:ref oid="GLO-0031">usuario</rem:ref> le dé a la opción de añadir <rem:ref oid="GLO-0036">gasto</rem:ref> en la pestaña de <rem:ref oid="GLO-0028">grupo</rem:ref>.</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> está registrado en la aplicación y está en algún <rem:ref oid="GLO-0028">grupo</rem:ref> de <rem:ref oid="GLO-0036">gasto</rem:ref></rem:precondition>
+<rem:postcondition>
+Se crea un nuevo <rem:ref oid="GLO-0036">gasto</rem:ref> en el <rem:ref oid="GLO-0028">grupo</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0010"/>
+</rem:frequency>
+<rem:step oid = "STP-0001">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+selecciona a los integrantes del <rem:ref oid="GLO-0028">grupo</rem:ref> a los que va a asociar el <rem:ref oid="GLO-0036">gasto</rem:ref> <br/></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0036">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+selecciona la empresa de servicios en la que se ha realizado el <rem:ref oid="GLO-0036">gasto</rem:ref> y la cantidad total</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0037">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+elige el porcentaje del <rem:ref oid="GLO-0036">gasto</rem:ref> total que se le asigna a cada persona escogida en el primer paso. Por defecto, se reparte equitativamente entre todas.</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0002">
+<rem:condition>
+la suma de porcentajes individuales es distinta de 1</rem:condition>
+<rem:systemAction>
+<rem:description>
+genera un error, informa al <rem:ref oid="GLO-0031">usuario</rem:ref>, y se repite el paso</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0010"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0041">
+<rem:number>4</rem:number>
+<rem:condition>
+se quiere adjuntar un justificante de pago</rem:condition>
+<rem:useCaseAction useCase = "UC-0003"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0124">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+notifica a los miembros del <rem:ref oid="GLO-0028">grupo</rem:ref> de su deuda</rem:description>
+<rem:performance>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0002">
+<rem:name>
+Editar <rem:ref oid="GLO-0036">gasto</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0006 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+En un <rem:ref oid="GLO-0036">gasto</rem:ref> de un <rem:ref oid="GLO-0028">grupo</rem:ref>, cambiar los porcentajes del reparto de gastos, añadir y eliminar a una persona. Se añade y se quita un comprobante de <rem:ref oid="GLO-0036">gasto</rem:ref>.<br/></rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el <rem:ref oid="GLO-0031">usuario</rem:ref> le dé a la opción de editar <rem:ref oid="GLO-0036">gasto</rem:ref> en la pestaña de <rem:ref oid="GLO-0028">grupo</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> está registrado en la aplicación, está en algún <rem:ref oid="GLO-0028">grupo</rem:ref> de <rem:ref oid="GLO-0036">gasto</rem:ref> y hay algún <rem:ref oid="GLO-0036">gasto</rem:ref> asociado a ese <rem:ref oid="GLO-0028">grupo</rem:ref></rem:precondition>
+<rem:postcondition>
+Se actualiza el <rem:ref oid="GLO-0036">gasto</rem:ref> en el <rem:ref oid="GLO-0028">grupo</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0010"/>
+</rem:frequency>
+<rem:step oid = "STP-0038">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+modifica, si quiere, los integrantes del <rem:ref oid="GLO-0028">grupo</rem:ref> a los que se les ha asociado el <rem:ref oid="GLO-0036">gasto</rem:ref>. Si no quiere, avanza al siguiente al paso.</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0004">
+<rem:condition>
+se quiere eliminar el <rem:ref oid="GLO-0036">gasto</rem:ref> del <rem:ref oid="GLO-0028">grupo</rem:ref></rem:condition>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+elige eliminar el <rem:ref oid="GLO-0036">gasto</rem:ref></rem:description>
+</rem:actorAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0039">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+modifica los porcentajes de <rem:ref oid="GLO-0036">gasto</rem:ref> asociados a cada integrante elegido en el paso anterior</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0003">
+<rem:condition>
+la suma de porcentajes individuales es distinta de 1</rem:condition>
+<rem:systemAction>
+<rem:description>
+genera un error, informa al <rem:ref oid="GLO-0031">usuario</rem:ref> y se repite el paso</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0042">
+<rem:number>3</rem:number>
+<rem:condition>
+se quiere adjuntar o modificar el justificante de pago</rem:condition>
+<rem:useCaseAction useCase = "UC-0003"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0125">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+modifica las características en la base de datos</rem:description>
+<rem:performance>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0003">
+<rem:name>
+Adjuntar comprobante de pago</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0006 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Adjuntar comprobante de pago: subir imágenes en diferentes formatos y comprobar que se otros integrantes del <rem:ref oid="GLO-0028">grupo</rem:ref> la pueden ver.<br/></rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:isAbstract/>
+<rem:triggeringEvent>
+<rem:tbd/></rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> está registrado en la aplicación y está en algún <rem:ref oid="GLO-0028">grupo</rem:ref> de <rem:ref oid="GLO-0036">gasto</rem:ref>.</rem:precondition>
+<rem:postcondition>
+Se añade al <rem:ref oid="GLO-0036">gasto</rem:ref> una imagen de un ticket o <rem:ref oid="GLO-0033">factura</rem:ref> que demuestre que se ha realizado el pago y la cantidad total.</rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0010"/>
+</rem:frequency>
+<rem:step oid = "STP-0043">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+elige si desea añadir, modificar o eliminar el justificante asociado al pago.</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0044">
+<rem:number>2</rem:number>
+<rem:condition>
+se elige añadir o modificar el justificante de pago</rem:condition>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+elige una imagen guardada en su sistema de archivos</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0005">
+<rem:condition>
+la imagen no se sube correctamente o ocurre algún problema</rem:condition>
+<rem:systemAction>
+<rem:description>
+avisa al <rem:ref oid="GLO-0031">usuario</rem:ref> y se repite el paso</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0126">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+asocia la imagen al <rem:ref oid="GLO-0036">gasto</rem:ref></rem:description>
+<rem:performance>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0012"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0004">
+<rem:name>
+Pagar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0006 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Casos de prueba con diferentes pagos, comprobar errores con una cuenta sin saldo, cancelar la transacción en mitad del proceso, etc.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0031">usuario</rem:ref> le dé a la opción de pagar un <rem:ref oid="GLO-0036">gasto</rem:ref> en la pestaña de <rem:ref oid="GLO-0028">grupo</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> está registrado en la aplicación, está en algún <rem:ref oid="GLO-0028">grupo</rem:ref> de <rem:ref oid="GLO-0036">gasto</rem:ref> y hay algún <rem:ref oid="GLO-0036">gasto</rem:ref> en ese <rem:ref oid="GLO-0028">grupo</rem:ref></rem:precondition>
+<rem:postcondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> paga la correspondiente cantidad de dinero.</rem:postcondition>
+<rem:frequency>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0010"/>
+</rem:frequency>
+<rem:step oid = "STP-0045">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+elige qué <rem:ref oid="GLO-0036">gasto</rem:ref> de los del <rem:ref oid="GLO-0028">grupo</rem:ref> va a pagar</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0006">
+<rem:condition>
+el <rem:ref oid="GLO-0031">usuario</rem:ref> no está asignado como una de las personas que tiene que pagar un <rem:ref oid="GLO-0036">gasto</rem:ref>, o ya lo ha hecho previamente</rem:condition>
+<rem:systemAction>
+<rem:description>
+avisa al <rem:ref oid="GLO-0031">usuario</rem:ref> y se cancela el pago</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0046">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+elige el método de pago, que será uno de los haya elegido previamente como formas que tiene de pagar.</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0047">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+intenta realizar el pago. Si ocurre correctamente, se avisa al <rem:ref oid="GLO-0031">usuario</rem:ref> y se notifica a la persona que recibe el dinero</rem:description>
+<rem:performance>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:stepException oid = "STX-0007">
+<rem:condition>
+ocurre algún problema durante la transacción</rem:condition>
+<rem:systemAction>
+<rem:description>
+avisa al <rem:ref oid="GLO-0031">usuario</rem:ref> del tipo de problema y se cancela la operación de pago</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0009">
+<rem:name>
+Crear <rem:ref oid="GLO-0028">grupo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: Crear grupos con diferentes nombres y número de miembros</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0031">usuario</rem:ref> escoge crear un nuevo <rem:ref oid="GLO-0028">grupo</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> debe tener la sesión iniciada</rem:precondition>
+<rem:postcondition>
+Se crea el <rem:ref oid="GLO-0028">grupo</rem:ref> con todos sus integrantes</rem:postcondition>
+<rem:frequency>
+<rem:value>
+30
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0061">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+selecciona &quot;Crear grupo&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0062">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+introduce el nombre/asunto del <rem:ref oid="GLO-0028">grupo</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0063">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+invita a los participantes que desee</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0123">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+crea un <rem:ref oid="GLO-0028">grupo</rem:ref> nuevo en el que está este <rem:ref oid="GLO-0031">usuario</rem:ref> como <rem:ref oid="GLO-0034">administrador</rem:ref></rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0008">
+<rem:name>
+Gestionar usuarios del <rem:ref oid="GLO-0028">grupo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: Añadir o eliminar miembros. Caso límite: eliminar a todos los miembros, añadir el máximo de miembros.</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el <rem:ref oid="GLO-0034">administrador</rem:ref> del <rem:ref oid="GLO-0028">grupo</rem:ref> acceda a la configuración</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0028">grupo</rem:ref> existe y el <rem:ref oid="GLO-0031">usuario</rem:ref> es <rem:ref oid="GLO-0034">administrador</rem:ref></rem:precondition>
+<rem:postcondition>
+Se realiza el cambio pertinente: Añadir, eliminar o modificar un miembro</rem:postcondition>
+<rem:frequency>
+<rem:value>
+15
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0065">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+selecciona administrar usuarios</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0066">
+<rem:number>2</rem:number>
+<rem:condition>
+se selecciona añadir miembro</rem:condition>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+escoge los miembros para añadir</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0067">
+<rem:number>3</rem:number>
+<rem:condition>
+se selecciona eliminar miembro</rem:condition>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+escoge los miembros a eliminar del <rem:ref oid="GLO-0028">grupo</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0068">
+<rem:number>4</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+confirma las modificaciones</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0069">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+aplica los cambios</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0028">
+<rem:name>
+Subsistema 2</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>3.2.2.2 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0004">
+<rem:name>
+Subsistema 2</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imagenes\Subsistema2_1.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:functionalRequirement
+ oid = "FRQ-0002">
+<rem:name>
+Recomendar empresas de servicios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:sources stakeholders ="STK-0004 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+permitir ver un mapa de empresas de servicios cercanas o buscarlas, valorar empresas de servicios o valorar los servicios directamente con una puntuación y una <rem:ref oid="GLO-0035">reseña</rem:ref> asociadas y recomendar estas empresas en base a las valoraciones de otros usuarios. También se podrán reservar algunos servicios directamente a través de la aplicación. Los trabajadores de la empresa cliente también podrán consultar estadísticas asociadas a las valoraciones de los usuarios. </rem:description>
+</rem:functionalRequirement>
+<rem:actor
+ oid = "ACT-0003">
+<rem:name>
+Trabajador Empresa de Servicios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2024</rem:year>
+<rem:month>3</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>a cualquier trabajador de las empresas de servicios que tienen la opción de hacer reservas directamente a través de la aplicación que tenga acceso a las notificaciones de reserva.</rem:actorRole>
+</rem:actor>
+<rem:section
+ oid = "SEC-0029">
+<rem:name>
+Casos de uso</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>5</rem:level>
+<rem:number>3.2.2.2.1 </rem:number>
+<rem:useCase
+ oid = "UC-0005">
+<rem:name>
+Buscar empresa</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: escribir el nombre en la barra. Probar con caracteres mal escritos o búsquedas incompletas.</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0031">usuario</rem:ref> busca el nombre de una empresa proveedora de actividades</rem:triggeringEvent>
+<rem:precondition>
+Ninguno: Cualquier <rem:ref oid="GLO-0031">usuario</rem:ref> debería poder buscar</rem:precondition>
+<rem:postcondition>
+Se muestran las empresas que coincidan con la descripción</rem:postcondition>
+<rem:frequency>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0010"/>
+</rem:frequency>
+<rem:step oid = "STP-0049">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+abre la barra de búsqueda</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0050">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+escribe el nombre de la empresa</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0051">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra los resultados</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0006">
+<rem:name>
+Valorar empresa</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: escribir un texto y valoración. Comprobar si se publican.</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+selecciona la opción de reseñar cierta empresa</rem:triggeringEvent>
+<rem:precondition>
+La empresa existe y el <rem:ref oid="GLO-0031">usuario</rem:ref> tiene la sesión iniciada</rem:precondition>
+<rem:postcondition>
+La <rem:ref oid="GLO-0035">reseña</rem:ref> de la empresa se publica</rem:postcondition>
+<rem:frequency>
+<rem:value>
+10
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0052">
+<rem:number>1</rem:number>
+<rem:useCaseAction useCase = "UC-0005"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0053">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+selecciona el botón de &quot;Reseñar&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0054">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+selecciona el número de estrellas (0-5) y escribe una descripción de su experiencia</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0055">
+<rem:number>4</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+publica la <rem:ref oid="GLO-0035">reseña</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0007">
+<rem:name>
+Ver reseñas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: explorar las reseñas de una cierta empresa. Comprobar que se muestra la totalidad de ellas.</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+selecciona ver las reseñas de cierta empresa</rem:triggeringEvent>
+<rem:precondition>
+La empresa existe y tiene reseñas</rem:precondition>
+<rem:postcondition>
+Se muestran las reseñas</rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0010"/>
+</rem:frequency>
+<rem:step oid = "STP-0056">
+<rem:number>1</rem:number>
+<rem:useCaseAction useCase = "UC-0005"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0058">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+selecciona el botón de &quot;Ver reseñas&quot;</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0059">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra las reseñas</rem:description>
+</rem:systemAction>
+<rem:stepException oid = "STX-0008">
+<rem:condition>
+La empresa aún no tiene reseñas</rem:condition>
+<rem:systemAction>
+<rem:description>
+informa al <rem:ref oid="GLO-0031">usuario</rem:ref></rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0017">
+<rem:name>
+Ver estadísticas empresa</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: testear la indexación de las estadísticas de empresaas registradas y no regisradas en la plicación.</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+se selecciona la opción ver estadísticas empresa tras su búsqueda</rem:triggeringEvent>
+<rem:precondition>
+La empresa debe existir y estar regisrada en la aplicación</rem:precondition>
+<rem:postcondition>
+Se muestran las siguientes estadísticas: número de veces que se han usado sus servicios, precio de cada uso, valoración promedio, mini-comentario del <rem:ref oid="GLO-0031">usuario</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:value>
+10
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0107">
+<rem:number>1</rem:number>
+<rem:useCaseAction useCase = "UC-0005"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0108">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+selecciona la empresa de un desplegable</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0109">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra las estadísticas de la empresa</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0012"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0018">
+<rem:name>
+Planificar actividades</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: test realizado por una muestra aleatoria de empleados de Oldtravelsa</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+alguien del personal OldTravelsa seleccione la opción de planificar actividad</rem:triggeringEvent>
+<rem:precondition>
+el actor debe ser alguien del personal de OldTravelsa</rem:precondition>
+<rem:postcondition>
+se muestra una serie de campos a rellenar con información de la actividad</rem:postcondition>
+<rem:frequency>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0007"/>
+</rem:frequency>
+<rem:step oid = "STP-0110">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+selecciona la opción planificar actividad</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0112">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+mostrará una serie de campos a rellenar con información de la actividad como: nombre, fecha, lugar y precio.</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0113">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+pulsa el botón crear</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0016">
+<rem:condition>
+no se rellena alguno de los campos</rem:condition>
+<rem:systemAction>
+<rem:description>
+notificará del error</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0012"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0114">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+crea la actividad con las características especificadas</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0021">
+<rem:name>
+Valorar <rem:ref oid="GLO-0032">servicio</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2024</rem:year>
+<rem:month>3</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: explorar las reseñas de un <rem:ref oid="GLO-0032">servicio</rem:ref>. Comprobar que se muestra la totalidad de ellas.</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+cuando el <rem:ref oid="GLO-0031">usuario</rem:ref> elija la opción de dejar una valoración a un <rem:ref oid="GLO-0032">servicio</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0032">servicio</rem:ref> existe y el <rem:ref oid="GLO-0031">usuario</rem:ref> tiene la sesión iniciada</rem:precondition>
+<rem:postcondition>
+La <rem:ref oid="GLO-0035">reseña</rem:ref> del <rem:ref oid="GLO-0032">servicio</rem:ref> se publica</rem:postcondition>
+<rem:frequency>
+<rem:value>
+8
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0127">
+<rem:number>1</rem:number>
+<rem:useCaseAction useCase = "UC-0005"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0128">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+elige la opción de Reseñar <rem:ref oid="GLO-0032">servicio</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0129">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+elige el <rem:ref oid="GLO-0032">servicio</rem:ref> a reseñar de entre todos los que oferta la empresa</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0131">
+<rem:number>4</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+publica la <rem:ref oid="GLO-0035">reseña</rem:ref> del <rem:ref oid="GLO-0032">servicio</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0022">
+<rem:name>
+Reservar <rem:ref oid="GLO-0032">servicio</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2024</rem:year>
+<rem:month>3</rem:month>
+<rem:day>8</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: comprobar que el <rem:ref oid="GLO-0032">servicio</rem:ref> sale como reservado. Llamar a la empresa implicada para asegurarse de que les ha llegado la notificación de la reserva.</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:triggeringEvent>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> elige la opción de reservar <rem:ref oid="GLO-0032">servicio</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> tiene iniciada la sesión. La empresa y el <rem:ref oid="GLO-0032">servicio</rem:ref> existen. El <rem:ref oid="GLO-0032">servicio</rem:ref> tiene la opción de reservar a través de la aplicación.</rem:precondition>
+<rem:postcondition>
+Se reserva el <rem:ref oid="GLO-0032">servicio</rem:ref>.</rem:postcondition>
+<rem:frequency>
+<rem:value>
+3
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0132">
+<rem:number>1</rem:number>
+<rem:useCaseAction useCase = "UC-0005"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0133">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+elige la opción de Reservar <rem:ref oid="GLO-0032">servicio</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0134">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+elige el <rem:ref oid="GLO-0032">servicio</rem:ref> que quiere reservar de esa empresa<br/></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0135">
+<rem:number>4</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+elige la hora y el día dentro de los disponibles</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0136">
+<rem:number>5</rem:number>
+<rem:systemAction>
+<rem:description>
+notifica a la cuenta de la empresa de servicios</rem:description>
+<rem:performance>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0137">
+<rem:number>6</rem:number>
+<rem:actorAction actor = "ACT-0003">
+<rem:description>
+confirma la reserva</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0018">
+<rem:condition>
+el trabajador rechaza la reserva</rem:condition>
+<rem:systemAction>
+<rem:description>
+notifica al <rem:ref oid="GLO-0031">usuario</rem:ref> de que ha rechazado la reserva</rem:description>
+<rem:performance>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0138">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+notifica al <rem:ref oid="GLO-0031">usuario</rem:ref> de que la reserva ha sido validada con exito</rem:description>
+<rem:performance>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0030">
+<rem:name>
+Subsistema 3</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>3.2.2.3 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0005">
+<rem:name>
+Subsistema 3</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imagenes\Subsistema3.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:functionalRequirement
+ oid = "FRQ-0003">
+<rem:name>
+Comunicación entre usuarios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0004 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+permitir compartir y enviar mensaje, fotos, vídeos y otros tipos de contenido multimedia entre los usuarios de la aplicación. También se podrá valorar la experiencia con otros usuarios con los que se haya interactuado, y si un <rem:ref oid="GLO-0031">usuario</rem:ref> acumula un gran número de valoraciones positivas, se le dará una recompensa. Además, los administradores de OldTravelsa podrán ver estadísticas sobre los usuarios y mandar avisos generales a todos los usuarios.</rem:description>
+</rem:functionalRequirement>
+<rem:section
+ oid = "SEC-0031">
+<rem:name>
+Casos de uso</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>5</rem:level>
+<rem:number>3.2.2.3.1 </rem:number>
+<rem:useCase
+ oid = "UC-0010">
+<rem:name>
+Ver chats</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: Se le da a la opción de ver chats, se busca el nombre de otro <rem:ref oid="GLO-0031">usuario</rem:ref> y se accede a los mensajes.</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+un <rem:ref oid="GLO-0031">usuario</rem:ref> clica en lla opción de ver chats</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> debe tener la sesión iniciada</rem:precondition>
+<rem:postcondition>
+Se le muestra al <rem:ref oid="GLO-0031">usuario</rem:ref> el chat deseado</rem:postcondition>
+<rem:frequency>
+<rem:value>
+3
+</rem:value>
+<rem:timeUnit value = "TUV-0010"/>
+</rem:frequency>
+<rem:step oid = "STP-0073">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una barra de busqueda por nombre de <rem:ref oid="GLO-0031">usuario</rem:ref> para poder elegir que chat ver</rem:description>
+<rem:performance>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0074">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+escribe el nombre del <rem:ref oid="GLO-0031">usuario</rem:ref> a cuyo chat quiere acceder</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0009">
+<rem:condition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> no existe</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje de error </rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0075">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+ muestra el chat de ese <rem:ref oid="GLO-0031">usuario</rem:ref></rem:description>
+<rem:performance>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0011">
+<rem:name>
+Mandar mensaje</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validacion: se entra en un chat, se escribe y se manda un texto/contenido multimedia</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+elige la opcion de mandar mensaje en un chat</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> tiene iniciada sesion y esta en la pestaña de un chat</rem:precondition>
+<rem:postcondition>
+Se manda un mensaje al <rem:ref oid="GLO-0031">usuario</rem:ref> del chat</rem:postcondition>
+<rem:frequency>
+<rem:value>
+4
+</rem:value>
+<rem:timeUnit value = "TUV-0010"/>
+</rem:frequency>
+<rem:step oid = "STP-0076">
+<rem:number>1</rem:number>
+<rem:useCaseAction useCase = "UC-0010"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0077">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Elige escribir un texto o un contenido multimedia </rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0078">
+<rem:number>3</rem:number>
+<rem:condition>
+el <rem:ref oid="GLO-0031">usuario</rem:ref> eligió texto</rem:condition>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+Escribe el texto</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0079">
+<rem:number>4</rem:number>
+<rem:condition>
+el <rem:ref oid="GLO-0031">usuario</rem:ref> eligió anexar contenido multimedia</rem:condition>
+<rem:systemAction>
+<rem:description>
+ muestra en una pestaña los archivos almacenados en el almacenamiento interno del dispositivo del <rem:ref oid="GLO-0031">usuario</rem:ref></rem:description>
+<rem:performance>
+<rem:value>
+3
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:stepException oid = "STX-0010">
+<rem:condition>
+no hay archivos o no se puede acceder al almacenamiento interno del <rem:ref oid="GLO-0031">usuario</rem:ref></rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje de error</rem:description>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0080">
+<rem:number>5</rem:number>
+<rem:condition>
+ el <rem:ref oid="GLO-0031">usuario</rem:ref> eligió anexar contenido multimedio</rem:condition>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+clica sobre uno de los archivos de su almacenamiento interno</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0081">
+<rem:number>6</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+da a la opcion de enviar el mensaje</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0082">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+envía el mensaje al otro <rem:ref oid="GLO-0031">usuario</rem:ref> </rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0083">
+<rem:number>8</rem:number>
+<rem:systemAction>
+<rem:description>
+manda una notificación al otro <rem:ref oid="GLO-0031">usuario</rem:ref></rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0012">
+<rem:name>
+Valorar <rem:ref oid="GLO-0031">usuario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: dentro de la pestaña de un <rem:ref oid="GLO-0028">grupo</rem:ref>, se clica sobre el perfil de uno de los integrantes y se elige valorar. Se escribe una valoración y se le da a enviar.</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el <rem:ref oid="GLO-0031">usuario</rem:ref> elige la opción de valorar <rem:ref oid="GLO-0031">usuario</rem:ref>, dentro de la pestaña de integrantes de un <rem:ref oid="GLO-0028">grupo</rem:ref> de <rem:ref oid="GLO-0036">gasto</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> tiene iniciada la sesión y está en al menos un <rem:ref oid="GLO-0028">grupo</rem:ref> de <rem:ref oid="GLO-0036">gasto</rem:ref></rem:precondition>
+<rem:postcondition>
+Se añade una nueva valoración al <rem:ref oid="GLO-0031">usuario</rem:ref> que se ha seleccionado para valorar</rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0084">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+elige la opción de valorar <rem:ref oid="GLO-0031">usuario</rem:ref> en el perfil de otro <rem:ref oid="GLO-0031">usuario</rem:ref> dentro de un <rem:ref oid="GLO-0028">grupo</rem:ref> de <rem:ref oid="GLO-0036">gasto</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0085">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una pestaña para escribir un texto y otra para dar una valoración numérica</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0086">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+escribe la <rem:ref oid="GLO-0035">reseña</rem:ref> y la puntuación y le da a guardar</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0088">
+<rem:number>4</rem:number>
+<rem:systemAction>
+<rem:description>
+guarda la valoración en el perfil del otro <rem:ref oid="GLO-0031">usuario</rem:ref>(al que se le estaba escribiendo la valoracion) y lo notifica</rem:description>
+<rem:performance>
+<rem:value>
+3
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0013">
+<rem:name>
+Dar recompensa</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: se escriben 10 reseñas positivas a un <rem:ref oid="GLO-0031">usuario</rem:ref> y se comprueba que reciba la recompensa</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0002"/>
+<rem:triggeringEvent>
+se han acumulado 10 reseñas positivas a un <rem:ref oid="GLO-0031">usuario</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+un <rem:ref oid="GLO-0031">usuario</rem:ref> acumula 10 reseñas positivas</rem:precondition>
+<rem:postcondition>
+el <rem:ref oid="GLO-0031">usuario</rem:ref> obtiene una recompensa</rem:postcondition>
+<rem:frequency>
+<rem:value>
+10
+</rem:value>
+<rem:timeUnit value = "TUV-0008"/>
+</rem:frequency>
+<rem:step oid = "STP-0089">
+<rem:number>1</rem:number>
+<rem:useCaseAction useCase = "UC-0012"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0090">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+, de forma aleatoria, le proporciona un euro en el <rem:ref oid="GLO-0038">monedero</rem:ref> virtual del <rem:ref oid="GLO-0031">usuario</rem:ref> o le manda una tarjeta online de descuento del 5% en el próximo viaje con OldTravelsa</rem:description>
+<rem:performance>
+<rem:value>
+3
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0091">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+notifica al <rem:ref oid="GLO-0031">usuario</rem:ref></rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0019">
+<rem:name>
+Mandar aviso</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: test de la funcionalidad realizado por una muestra de usuarios de OldTravelsa y  por usuarios externos a la misma</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+alguien del personal OldTravelsa pulse el botón de enviar aviso</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> debe ser alguien del personal de OldTravelsa</rem:precondition>
+<rem:postcondition>
+El aviso le llegará a los usuarios seleccionados por el trabajador de OldTravelsa</rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0008"/>
+</rem:frequency>
+<rem:step oid = "STP-0116">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+pulsa el botón de redactar aviso</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0117">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una serie de campos a rellenar como: destinatarios y mensaje</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0012"/>
+</rem:performance>
+</rem:systemAction>
+<rem:stepException oid = "STX-0017">
+<rem:condition>
+no se rellena alguno de los campos</rem:condition>
+<rem:systemAction>
+<rem:description>
+notificará del error</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0012"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0002"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0115">
+<rem:number>3</rem:number>
+<rem:useCaseAction useCase = "UC-0011"/><rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0020">
+<rem:name>
+Ver estadísticas de <rem:ref oid="GLO-0031">usuario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: test de funcionamiento realizado por una muestra aleatoria de potenciales usuarios de la aplicación</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+se elige la opción de ver estadísticas de <rem:ref oid="GLO-0031">usuario</rem:ref></rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> debe existir</rem:precondition>
+<rem:postcondition>
+Se muestran en una ventana las estadísticas del <rem:ref oid="GLO-0031">usuario</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0119">
+<rem:number>1</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+selecciona la opción de consultar estadísticas de <rem:ref oid="GLO-0031">usuario</rem:ref></rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0120">
+<rem:number>2</rem:number>
+<rem:systemAction>
+<rem:description>
+mostrará las estadísticas del <rem:ref oid="GLO-0031">usuario</rem:ref> seleccionado en una ventana</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0032">
+<rem:name>
+Subsistema 4</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>4</rem:level>
+<rem:number>3.2.2.4 </rem:number>
+<rem:graphicFile
+ oid = "GRF-0006">
+<rem:name>
+Subsistema 4</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imagenes\Subsistema4.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:functionalRequirement
+ oid = "FRQ-0004">
+<rem:name>
+Gestión de usuarios</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:sources stakeholders ="STK-0004 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+ser capaz de administrar usuarios, permitiendo a los clientes de OldTravelsa registrarse o iniciar sesión en la aplicación, donde se almacenarán y gestionarán datos básicos sobre los mismos. Al registrarse, habrá que configurar al menos un método de pago de la aplicación.</rem:description>
+</rem:functionalRequirement>
+<rem:section
+ oid = "SEC-0033">
+<rem:name>
+Casos de uso</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>15</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>5</rem:level>
+<rem:number>3.2.2.4.1 </rem:number>
+<rem:useCase
+ oid = "UC-0014">
+<rem:name>
+Iniciar sesion</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: se entra en la aplicación, se elige iniciar sesión y se introduce un nombre de <rem:ref oid="GLO-0031">usuario</rem:ref> y contraseña válidos</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:triggeringEvent>
+el <rem:ref oid="GLO-0031">usuario</rem:ref> entra en la aplicación y elige iniciar sesión</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> entra en la aplicación</rem:precondition>
+<rem:postcondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> tiene la sesión iniciada</rem:postcondition>
+<rem:frequency>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0010"/>
+</rem:frequency>
+<rem:step oid = "STP-0094">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra un campo para escribir el nombre de <rem:ref oid="GLO-0031">usuario</rem:ref> y la contraseña</rem:description>
+<rem:performance>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0095">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+escribe el nombre de <rem:ref oid="GLO-0031">usuario</rem:ref> y la contraseña</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0012">
+<rem:condition>
+El nombre de <rem:ref oid="GLO-0031">usuario</rem:ref> o la contraseña son incorrectos</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje de error y da la opción de introducir un correo para enviar un mensaje con el nombre y la contraseña correctos</rem:description>
+<rem:performance>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0096">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+inicia la sesión del <rem:ref oid="GLO-0031">usuario</rem:ref> y muestra al <rem:ref oid="GLO-0031">usuario</rem:ref> los datos de su cuenta en la aplicación a continuación</rem:description>
+<rem:performance>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0015">
+<rem:name>
+Registrarse</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: se registra un nuevo <rem:ref oid="GLO-0031">usuario</rem:ref> con un nombre de <rem:ref oid="GLO-0031">usuario</rem:ref> y contraseña válidos</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:triggeringEvent>
+el <rem:ref oid="GLO-0031">usuario</rem:ref> entra en la aplicación y elige la opción de registrarse</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> aún no ha iniciado sesión</rem:precondition>
+<rem:postcondition>
+Se registra la cuenta del <rem:ref oid="GLO-0031">usuario</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0097">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+El sistema muestra campos para escribir nombre de <rem:ref oid="GLO-0031">usuario</rem:ref>, nombre real, contraseña, teléfono y correo</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0098">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+rellena los campos y le da a guardar</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0013">
+<rem:condition>
+Algún campo no es válido</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de error</rem:description>
+<rem:performance>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:stepException oid = "STX-0014">
+<rem:condition>
+El nombre real no se encuentra registrado en la base de datos de OldTravesa (no se corresponde con un cliente)</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra mensaje de error</rem:description>
+<rem:performance>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0099">
+<rem:number>3</rem:number>
+<rem:systemAction>
+<rem:description>
+crea la cuenta de <rem:ref oid="GLO-0031">usuario</rem:ref></rem:description>
+<rem:performance>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+<rem:useCase
+ oid = "UC-0016">
+<rem:name>
+Configurar metodo de pago</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0005 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: se prueba a configurar cada uno de los métodos de pago introduciendo datos válidos</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:triggeringEvent>
+el <rem:ref oid="GLO-0031">usuario</rem:ref> elige la opcion de configurar metodo de pago en su cuenta</rem:triggeringEvent>
+<rem:precondition>
+El <rem:ref oid="GLO-0031">usuario</rem:ref> tiene la sesión iniciada</rem:precondition>
+<rem:postcondition>
+Se ha configurado exitosamente un método de pago para el <rem:ref oid="GLO-0031">usuario</rem:ref></rem:postcondition>
+<rem:frequency>
+<rem:value>
+1
+</rem:value>
+<rem:timeUnit value = "TUV-0009"/>
+</rem:frequency>
+<rem:step oid = "STP-0100">
+<rem:number>1</rem:number>
+<rem:systemAction>
+<rem:description>
+muestra una pestaña para elegir el método de pago que quiere configurar el <rem:ref oid="GLO-0031">usuario</rem:ref></rem:description>
+<rem:performance>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0101">
+<rem:number>2</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+elige un método de pago</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0102">
+<rem:number>3</rem:number>
+<rem:condition>
+ha elegido PayPal</rem:condition>
+<rem:systemAction>
+<rem:description>
+redirigirá al <rem:ref oid="GLO-0031">usuario</rem:ref> a una pestaña de Paypal para cubrir los datos</rem:description>
+<rem:performance>
+<rem:value>
+3
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0103">
+<rem:number>4</rem:number>
+<rem:condition>
+el <rem:ref oid="GLO-0031">usuario</rem:ref> ha elegido cuenta bancaria</rem:condition>
+<rem:systemAction>
+<rem:description>
+mostrara una pestaña para introducir un numero de cuenta</rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0104">
+<rem:number>5</rem:number>
+<rem:condition>
+el <rem:ref oid="GLO-0031">usuario</rem:ref> ha elegido <rem:ref oid="GLO-0038">monedero</rem:ref> virtual</rem:condition>
+<rem:systemAction>
+<rem:description>
+mostrará una pantalla para introducir un número de tarjeta y un importe numérico para recargar el <rem:ref oid="GLO-0038">monedero</rem:ref></rem:description>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0105">
+<rem:number>6</rem:number>
+<rem:actorAction actor = "ACT-0001">
+<rem:description>
+introduce los datos pedidos</rem:description>
+</rem:actorAction>
+<rem:stepException oid = "STX-0015">
+<rem:condition>
+los datos no son válidos</rem:condition>
+<rem:systemAction>
+<rem:description>
+muestra un mensaje de error</rem:description>
+<rem:performance>
+<rem:value>
+2
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:termination value = "TEV-0003"/>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:stepException>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0106">
+<rem:number>7</rem:number>
+<rem:systemAction>
+<rem:description>
+guarda el método de pago y muestra al <rem:ref oid="GLO-0031">usuario</rem:ref> un mensaje de que se ha configurado exitosamente</rem:description>
+<rem:performance>
+<rem:value>
+5
+</rem:value>
+<rem:timeUnit value = "TUV-0011"/>
+</rem:performance>
+</rem:systemAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+</rem:useCase>
+</rem:section>
+</rem:section>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0022">
+<rem:name>
+Requisitos no funcionales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.3 </rem:number>
+<rem:paragraph
+ oid = "PRG-0018">
+<rem:name>
+</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Es una característica o cualidad de toda la aplicación, de manera que afecta a su comportamiento global.<br/><br/>También hay que indicar las pruebas de validación en los comentarios.<br/><br/>Si hay muchos requisitos no funcionales, habría que hacer un diagrama indicando su taxonomía, aunque posiblemente no sea el caso. Basta con poner una imagen al principio<br/></rem:text>
+</rem:paragraph>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0001">
+<rem:name>
+Usabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: encuesta realizada sobre una versión beta de la aplicación a una muestra de los potenciales usuarios.</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+ser fácil de usar. Esto incluye una interfaz intuitiva y diferenciada de la competencia, navegación sencilla y accesibilidad. Debe permitir un tamaño de letra grande así como soporte multi-idoma.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0002">
+<rem:name>
+Rendimiento</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: tiempos de respuesta inferiores a 0.1s<br/></rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+ funcionar de manera eficiente, con tiempos de respuesta rápidos, especialmente en la gestión y cálculo de gastos de <rem:ref oid="GLO-0028">grupo</rem:ref>. La precisión de estos cálculos es fundamental. Además debe ser ligera (ocupar poco en memoria).</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0003">
+<rem:name>
+Seguridad y privacidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Contratación de una empresa de auditoría de seguridad externa</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+asegurar la protección de datos personales y financieros de los usuarios, incluyendo el cumplimiento de normativas como el GDPR.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0004">
+<rem:name>
+Escalabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: estudio de la complejidad de las principalaes funcionalidades (Big-O)</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+ser capaz de manejar un número creciente de usuarios sin degradar el rendimiento, con especial atención al pico de uso durante un viaje.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0005">
+<rem:name>
+Fiabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: realización exhaustiva de tests.</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+tener una alta disponibilidad y minimización de errores y fallos, asegurando que la aplicación sea confiable en todo momento.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0006">
+<rem:name>
+Mantenibilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: contratación de unos auditores externos que evalúen el código.</rem:comments>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+asegurar facilidad para actualizar, modificar y mantener la aplicación.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0007">
+<rem:name>
+Interoperabillidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: revisión de la calidad de las interfaces que permiten la integración con servicios externos</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+tener la capacidad de integrarse con otras plataformas y servicios en el futuro, como nuevos sistemas de pago, página web, etc.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0008">
+<rem:name>
+Documentación</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: test de uso sobre una muestra de usuarios y administradores con documentación como único soporte.</rem:comments>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+proporcionar documentación detallada para usuarios y administradores, con instrucciones claras y precisas sobre la configuración y funcionalidades principales de la aplicación.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0009">
+<rem:name>
+Cumplimiento Legal y Regulatorio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: contratación de un buffete de avogados externo especializado.</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+asegurar que la aplicación cumpla con todas las leyes y regulaciones relevantes, especialmente en lo que respecta a pagos y privacidad de datos.</rem:description>
+</rem:nonFunctionalRequirement>
+<rem:nonFunctionalRequirement
+ oid = "NFR-0010">
+<rem:name>
+Compatibilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0007 STK-0001 "/>
+<rem:sources stakeholders ="STK-0002 "/>
+<rem:comments>
+Prueba de validación: test de uso sobre una muestra de usuarios con dispositivos Android y dispositivos IOS</rem:comments>
+<rem:importance value = "IMV-0002"/>
+<rem:urgency value = "URV-0002"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0004"/>
+<rem:description>
+ser compatible con dispositivos Android e IOS, y facilitar la extensibilidad a otras plataformas en el futuro, como podría ser una página web.</rem:description>
+</rem:nonFunctionalRequirement>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0004">
+<rem:name>
+Matrices</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>4 </rem:number>
+<rem:traceabilityMatrix
+ oid = "TRM-0002">
+<rem:name>
+Requisitos funcionales x Objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:tr>
+<rem:th/>
+<rem:th oid ="OBJ-0001"/>
+<rem:th oid ="OBJ-0002"/>
+<rem:th oid ="OBJ-0003"/>
+<rem:th oid ="OBJ-0004"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0001"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0002"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0003"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="FRQ-0004"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+</rem:traceabilityMatrix>
+<rem:traceabilityMatrix
+ oid = "TRM-0003">
+<rem:name>
+Requisitos de información x Casos de uso</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:tr>
+<rem:th/>
+<rem:th oid ="IRQ-0001"/>
+<rem:th oid ="IRQ-0002"/>
+<rem:th oid ="IRQ-0003"/>
+<rem:th oid ="IRQ-0004"/>
+<rem:th oid ="IRQ-0005"/>
+<rem:th oid ="IRQ-0006"/>
+<rem:th oid ="IRQ-0007"/>
+<rem:th oid ="IRQ-0008"/>
+<rem:th oid ="IRQ-0009"/>
+<rem:th oid ="IRQ-0010"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0001"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0002"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0003"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0004"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0005"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0006"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0007"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0008"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0009"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0010"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0011"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0012"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0013"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0014"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0015"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0016"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0017"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0018"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0019"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0020"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0021"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0022"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+</rem:traceabilityMatrix>
+<rem:traceabilityMatrix
+ oid = "TRM-0001">
+<rem:name>
+Restricciones x Requisitos de información</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:tr>
+<rem:th/>
+<rem:th oid ="IRQ-0001"/>
+<rem:th oid ="IRQ-0002"/>
+<rem:th oid ="IRQ-0003"/>
+<rem:th oid ="IRQ-0004"/>
+<rem:th oid ="IRQ-0005"/>
+<rem:th oid ="IRQ-0006"/>
+<rem:th oid ="IRQ-0007"/>
+<rem:th oid ="IRQ-0008"/>
+<rem:th oid ="IRQ-0009"/>
+<rem:th oid ="IRQ-0010"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0001"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0002"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0003"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0004"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0007"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0008"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0009"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0010"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="CRQ-0011"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+</rem:traceabilityMatrix>
+<rem:traceabilityMatrix
+ oid = "TRM-0004">
+<rem:name>
+Casos de uso x Requisitos funcionales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:tr>
+<rem:th/>
+<rem:th oid ="FRQ-0001"/>
+<rem:th oid ="FRQ-0002"/>
+<rem:th oid ="FRQ-0003"/>
+<rem:th oid ="FRQ-0004"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0001"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0002"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0003"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0004"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0005"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0006"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0007"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0008"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0009"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0010"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0011"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0012"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0013"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0014"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0015"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0016"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0017"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0018"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0019"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0020"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0021"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0022"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+</rem:traceabilityMatrix>
+<rem:traceabilityMatrix
+ oid = "TRM-0005">
+<rem:name>
+Casos de uso x Objetivos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:tr>
+<rem:th/>
+<rem:th oid ="OBJ-0001"/>
+<rem:th oid ="OBJ-0002"/>
+<rem:th oid ="OBJ-0003"/>
+<rem:th oid ="OBJ-0004"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0001"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0002"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0003"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0004"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0005"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0006"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0007"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0008"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0009"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0010"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0011"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0012"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0013"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0014"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0015"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0016"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0017"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0018"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0019"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0020"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0021"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="UC-0022"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+</rem:traceabilityMatrix>
+</rem:section>
+<rem:section
+ oid = "SEC-0023">
+<rem:name>
+Apéndice: Reuniones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>A </rem:number>
+<rem:meeting
+ oid = "MET-0001">
+<rem:name>
+TFEA</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:time>
+<rem:hour>17</rem:hour>
+<rem:minute>20</rem:minute>
+</rem:time>
+<rem:place>Edificio Emprendia</rem:place>
+<rem:results>Se obtienen las listas TFEA refinadas, sobre las que se basa el presente informe. </rem:results>
+	<rem:attenders stakeholders ="STK-0003 STK-0007 STK-0006 STK-0005 STK-0001 "/>
+</rem:meeting>
+<rem:meeting
+ oid = "MET-0002">
+<rem:name>
+Clase 2023/12/12</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+<rem:time>
+<rem:hour>18</rem:hour>
+<rem:minute>42</rem:minute>
+</rem:time>
+<rem:place>Edificio Emprendia</rem:place>
+<rem:results>Explicación detallada sobre los objetivos de la Práctica 5.2. Finalización Descripción de la propuesta, Visión General y comienzo de los requisitos de la información</rem:results>
+	<rem:attenders stakeholders ="STK-0002 STK-0007 STK-0006 STK-0005 STK-0001 "/>
+</rem:meeting>
+<rem:meeting
+ oid = "MET-0003">
+<rem:name>
+Reunión ETSE</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+</rem:version>
+<rem:authors stakeholders ="STK-0001 "/>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+<rem:time>
+<rem:hour>19</rem:hour>
+<rem:minute>53</rem:minute>
+</rem:time>
+<rem:place>Sala de trabajo ETSE</rem:place>
+<rem:results>Realización restricciones de la información y comienzo de las requisitos funcionales así como los no funcionales. Creación restricciones de la información.</rem:results>
+	<rem:attenders stakeholders ="STK-0007 STK-0006 STK-0005 STK-0001 "/>
+</rem:meeting>
+</rem:section>
+<rem:section
+ oid = "SEC-0024">
+<rem:name>
+Proceso Analítico Jerárquico</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>B </rem:number>
+<rem:paragraph
+ oid = "PRG-0041">
+<rem:name>
+Matrices</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Hemos realizado las comparaciones de valor y coste entre cada pareja de casos de uso, ambos con un coeficiente de correlación inferior al 0.1 (0.07 en valor y 0.09 en coste).<br/><br/>Se nota por ejemplo que los requisitos R4 (Pagar), R10 (Planificar actividades), R13 (Registrarse), R14 (Iniciar sesión) y R15 (Configurar métodos de pago) toman cada uno de ellos aproximadamente 1/7 del coste total.<br/>En cuanto al valor, este es principalmente acaparado por R4 (Pagar), R5 (Crear <rem:ref oid="GLO-0028">grupo</rem:ref>), R13 (Registrarse) y R14 (Iniciar sesión).</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0039">
+<rem:name>
+Gráfico</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Con el objetivo de determinar los casos de uso más importantes para el proyecto, hemos seguido la técnica PAJ (Proceso Analítico Jerárquico).<br/><br/>Para ello, en primera instancia, hemos tenido que determinar los 15 casos de uso más importantes, descartando por tanto estos 5 por no considerarlos de especial relevancia: Ver estadísticas de empresa, ver estadísticas de <rem:ref oid="GLO-0031">usuario</rem:ref>, mandar aviso, dar recompensa y valorar <rem:ref oid="GLO-0031">usuario</rem:ref>. Los que hemos considerado han sido:<br/><br/>R1	Registrar un <rem:ref oid="GLO-0036">gasto</rem:ref><br/>R2	Editar <rem:ref oid="GLO-0036">gasto</rem:ref><br/>R3	Adjuntar comprobante pago<br/>R4	Pagar<br/>R5	Crear <rem:ref oid="GLO-0028">grupo</rem:ref><br/>R6	Gestionar usuarios del <rem:ref oid="GLO-0028">grupo</rem:ref><br/>R7	Buscar empresa<br/>R8	Valorar empresa<br/>R9	Ver reseñas<br/>R10	Planificar actividades<br/>R11	Ver chats<br/>R12	Mandar mensaje<br/>R13	Registrarse<br/>R14	Iniciar sesión<br/>R15	Configurar métodos de pago<br/><br/>Tras haber realizado dicho análisis este es el gráfico que ha dado como resultado:</rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0008">
+<rem:name>
+Grafico PAJ</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\Imagenes\Grafico.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0040">
+<rem:name>
+Gráfico</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>La interpretación del gráfico se resume en darle principal importancia a los casos de uso por encima de la primera recta, por aportar un valor elevado sin repercutir demasiado sobre el costo.<br/>Por el contrario, no sería recomendable centrarse en los que se encuentran en la parte inferior del diagrama, puesto que no valen tanto la pena.<br/><br/>De esta forma, los casos de uso R5 (Crear <rem:ref oid="GLO-0028">grupo</rem:ref>), R1 (Registrar un <rem:ref oid="GLO-0036">gasto</rem:ref>) y R6 (Gestionar usuarios del <rem:ref oid="GLO-0028">grupo</rem:ref>) tienen una elevada relación valor-coste.<br/>Existen además unos cuantos de coste elevado pero también valor elevado, como R4 (Pagar), R13 (Registrarse) y R14 (Iniciar sesión).</rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0042">
+<rem:name>
+Lista</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>12</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>En base a los resultados anteriormente mencionados, elaboramos la siguiente lista de casos de uso ordenados por prioridad (cuanto mayor sea la relación valor-coste, que se puede ver en la gráfica, se les dará mayor prioridad):<br/><br/>Valor &gt;&gt; Coste<br/>R5	Crear <rem:ref oid="GLO-0028">grupo</rem:ref><br/>R1	Registrar un <rem:ref oid="GLO-0036">gasto</rem:ref><br/>R6	Gestionar usuarios del <rem:ref oid="GLO-0028">grupo</rem:ref><br/><br/>Valor == Coste<br/>R13	Registrarse<br/>R14	Iniciar sesión<br/>R4	Pagar<br/>R11	Ver chats<br/>R12	Mandar mensaje<br/>R3	Adjuntar comprobante pago<br/>R2	Editar <rem:ref oid="GLO-0036">gasto</rem:ref><br/>R7	Buscar empresa<br/>R8	Valorar empresa<br/>R9	Ver reseñas<br/><br/>Valor &lt;&lt; Coste<br/>R15	Configurar métodos de pago<br/>R10	Planificar actividades</rem:text>
+</rem:paragraph>
+</rem:section>
+</rem:c_requirementsSpecification>
+<rem:d_requirementsSpecification oid = "DRS-0002">
+<rem:name>Documento de Análisis del Sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno
+</rem:comments>
+</rem:d_requirementsSpecification>
+<rem:defectsSpecification oid = "DFS-0003">
+<rem:name>Registro de Conflictos y Defectos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno
+</rem:comments>
+</rem:defectsSpecification>
+<rem:changeRequestsSpecification oid = "CHS-0004">
+<rem:name>Registro de Peticiones de Cambio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2023</rem:year>
+<rem:month>11</rem:month>
+<rem:day>28</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno
+</rem:comments>
+</rem:changeRequestsSpecification>
+<rem:trace source = "CRQ-0002"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0003"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0004"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0001"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0001"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0002"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0001"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0001"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0002"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0005"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0004"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0008"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0010"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0009"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0004"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0004"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0010"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "FRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "FRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0003"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0003"  target = "FRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0004"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0004"  target = "FRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0003"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0005"  target = "FRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0004"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0004"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0001"  target = "FRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0009"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0011"  target = "IRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0006"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0007"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0007"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0002"  target = "FRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0002"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0009"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0007"  target = "FRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0010"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0006"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0001"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0001"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "FRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0008"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0008"  target = "UC-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0001"  target = "FRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0005"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0006"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0003"  target = "FRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0003"  target = "UC-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0004"  target = "FRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0004"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "UC-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "UC-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0006"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0006"  target = "UC-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0006"  target = "CRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0008"  target = "FRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0003"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0002"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0004"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0005"  target = "GRF-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0009"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0006"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0003"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0005"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0008"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0003"  target = "UC-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0008"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "GLO-0035"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "GLO-0036"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "GLO-0034"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "GLO-0037"  target = "IRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0011"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "GLO-0036"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "GLO-0032"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "GLO-0033"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "GLO-0031"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0011"  target = "UC-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "UC-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0002"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0020"  target = "GRF-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0002"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "GRF-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0001"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0016"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0019"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0003"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0004"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "FRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0003"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0016"  target = "FRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0019"  target = "GRF-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0020"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0001"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0002"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0004"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0001"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "UC-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "GRF-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "FRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0011"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0011"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0010"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0010"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "FRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0015"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0004"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "IRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0020"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0010"  target = "IRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0016"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0005"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0017"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0016"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "IRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0011"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0019"  target = "IRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0018"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0006"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0010"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0011"  target = "IRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "UC-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "UC-0021" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "GLO-0032" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "CRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "UC-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "FRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0022"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0021"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:predefinedValueTypes>
+<rem:predefinedValueType
+ oid = "PVT-0006">
+<rem:name>
+Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Hour:minutes:seconds</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0001">
+<rem:name>
+Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Real numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0005">
+<rem:name>
+Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0004">
+<rem:name>
+String</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Alphanumeric strings</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0003">
+<rem:name>
+Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Natural numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0002">
+<rem:name>
+Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Integer numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+</rem:predefinedValueTypes>
+<rem:predefinedValues>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verificado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:defectStatusValue oid = "DSV-0001">
+<rem:name>PD</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>eliminado</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
+</rem:importanceValue>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>baja</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>media</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
+</rem:stabilityValue>
+<rem:statusValue oid = "STV-0001">
+<rem:name>PD</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>pendiente de verificación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>continúa</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>queda sin efecto</rem:name>
+</rem:terminationValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>puede esperar</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
+</rem:urgencyValue>
+</rem:predefinedValues>
+</rem:requirementsProject>
